@@ -4,6 +4,11 @@
 An experimental Endless Online server emulator with a focus on user-defined scripts.
 
 ## Usage
+You will need to include your EMF map files in `./data/maps` (auto-generated scripts for vanilla EO maps are included by default)
+
+The game server runs on port 8000 by default. You can change this in `./config/server.json`
+
+PUB files are automatically generated on server startup from the JSON files in:`./data/items` `./data/classes` `./data/npcs` etc.
 
 ## Credits
 - EOSERV# (thanks Addison!)
