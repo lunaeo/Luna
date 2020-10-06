@@ -1,0 +1,11 @@
+{
+  "id": 480,
+  "weight": 1,
+  "size": "1x1",
+  "name": "Flowies",
+  "graphic": 471,
+  "type": "Static",
+  "subtype": "None",
+  "special": "Normal",
+  "unknown1": 100
+}

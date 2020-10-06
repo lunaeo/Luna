@@ -1,0 +1,15 @@
+{
+  "id": 5,
+  "shout": "small thunder",
+  "name": "Small Thunder",
+  "icon": 5,
+  "graphic": 11,
+  "tp": 2,
+  "sp": 2,
+  "cast_time": 2,
+  "type": "Damage",
+  "target_restrict": "Opponent",
+  "target": "Normal",
+  "mindam": 3,
+  "maxdam": 4
+}

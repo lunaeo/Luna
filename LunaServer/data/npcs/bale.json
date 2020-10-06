@@ -1,0 +1,14 @@
+{
+  "id": 217,
+  "name": "Bale",
+  "graphic": 141,
+  "type": "Passive",
+  "hp": 201,
+  "mindam": 2,
+  "maxdam": 4,
+  "accuracy": 6,
+  "evade": 1,
+  "armor": 1,
+  "exp": 118,
+  "unknown2": 1
+}

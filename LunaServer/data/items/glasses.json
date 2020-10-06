@@ -1,0 +1,12 @@
+{
+  "id": 451,
+  "weight": 1,
+  "size": "2x1",
+  "name": "Glasses",
+  "graphic": 442,
+  "type": "Hat",
+  "subtype": "None",
+  "special": "Normal",
+  "spec1": 48,
+  "unknown1": 100
+}

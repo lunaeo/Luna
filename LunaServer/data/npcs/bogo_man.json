@@ -1,0 +1,14 @@
+{
+  "id": 132,
+  "name": "Bogo Man",
+  "graphic": 97,
+  "type": "Passive",
+  "hp": 1000,
+  "mindam": 2,
+  "maxdam": 5,
+  "accuracy": 5,
+  "evade": 1,
+  "armor": 1,
+  "exp": 90,
+  "unknown2": 4
+}

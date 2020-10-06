@@ -1,0 +1,10 @@
+{
+  "id": 14,
+  "name": "Cyclops",
+  "graphic": 14,
+  "type": "Passive",
+  "hp": 26,
+  "maxdam": 2,
+  "accuracy": 2,
+  "exp": 16
+}

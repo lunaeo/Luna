@@ -1,0 +1,15 @@
+{
+  "id": 444,
+  "weight": 2,
+  "size": "1x3",
+  "name": "Kontra",
+  "graphic": 435,
+  "type": "Weapon",
+  "subtype": "None",
+  "special": "Normal",
+  "mindam": 2,
+  "maxdam": 3,
+  "accuracy": 2,
+  "spec1": 69,
+  "unknown1": 100
+}

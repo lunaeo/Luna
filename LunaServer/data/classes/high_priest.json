@@ -1,0 +1,8 @@
+{
+  "id": 8,
+  "name": "High Priest",
+  "base": 2,
+  "type": "Magic",
+  "int": 4,
+  "wis": 4
+}

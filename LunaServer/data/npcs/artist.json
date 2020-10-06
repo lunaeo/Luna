@@ -1,0 +1,14 @@
+{
+  "id": 239,
+  "name": "Artist",
+  "graphic": 163,
+  "type": "Passive",
+  "hp": 10000,
+  "mindam": 30,
+  "maxdam": 90,
+  "accuracy": 1,
+  "evade": 1,
+  "armor": 1,
+  "exp": 1216,
+  "unknown2": 46
+}

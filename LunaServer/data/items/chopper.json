@@ -1,0 +1,16 @@
+{
+  "id": 420,
+  "weight": 3,
+  "size": "2x3",
+  "name": "Chopper",
+  "graphic": 411,
+  "type": "Weapon",
+  "subtype": "None",
+  "special": "Normal",
+  "mindam": 1,
+  "maxdam": 3,
+  "accuracy": 2,
+  "str": 1,
+  "spec1": 64,
+  "unknown1": 100
+}

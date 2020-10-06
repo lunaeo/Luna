@@ -1,0 +1,9 @@
+{
+  "id": 180,
+  "name": "Archeologist",
+  "graphic": 20,
+  "type": "Quest",
+  "vendor_id": 8,
+  "maxdam": 2,
+  "accuracy": 2
+}

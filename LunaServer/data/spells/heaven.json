@@ -1,0 +1,17 @@
+{
+  "id": 20,
+  "shout": "heavens judgement",
+  "name": "Heaven",
+  "icon": 1,
+  "graphic": 22,
+  "tp": 10,
+  "sp": 20,
+  "cast_time": 1,
+  "type": "Heal",
+  "target_restrict": "Friendly",
+  "target": "Normal",
+  "hp": 1000,
+  "unknown1": 1,
+  "unknown3": 100,
+  "unknown4": 100
+}

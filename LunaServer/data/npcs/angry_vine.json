@@ -1,0 +1,14 @@
+{
+  "id": 137,
+  "name": "Angry Vine",
+  "graphic": 102,
+  "type": "Aggressive",
+  "hp": 1300,
+  "mindam": 8,
+  "maxdam": 11,
+  "accuracy": 11,
+  "evade": 4,
+  "armor": 4,
+  "exp": 168,
+  "unknown2": 4
+}

@@ -1,0 +1,9 @@
+{
+  "id": 235,
+  "name": "Rock Star",
+  "graphic": 159,
+  "type": "NPC",
+  "maxdam": 1,
+  "accuracy": 1,
+  "evade": 1
+}

@@ -1,0 +1,10 @@
+{
+  "id": 20,
+  "name": "Wingo",
+  "graphic": 19,
+  "type": "Passive",
+  "hp": 41,
+  "maxdam": 2,
+  "accuracy": 2,
+  "exp": 12
+}

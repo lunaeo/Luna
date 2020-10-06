@@ -1,0 +1,9 @@
+{
+  "id": 177,
+  "name": "Pirate Caprain",
+  "graphic": 24,
+  "type": "Quest",
+  "vendor_id": 7,
+  "maxdam": 2,
+  "accuracy": 2
+}

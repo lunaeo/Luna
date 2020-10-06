@@ -1,0 +1,10 @@
+{
+  "id": 69,
+  "name": "Birdman Worker",
+  "graphic": 47,
+  "type": "Passive",
+  "hp": 72,
+  "maxdam": 2,
+  "accuracy": 3,
+  "exp": 18
+}

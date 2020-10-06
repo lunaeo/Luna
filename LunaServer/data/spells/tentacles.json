@@ -1,0 +1,14 @@
+{
+  "id": 26,
+  "shout": "tentacles",
+  "name": "Tentacles",
+  "icon": 10,
+  "graphic": 29,
+  "cast_time": 1,
+  "type": "Damage",
+  "target_restrict": "Opponent",
+  "target": "Normal",
+  "mindam": 2,
+  "maxdam": 2,
+  "unknown2": 100
+}

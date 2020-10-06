@@ -1,0 +1,17 @@
+{
+  "id": 369,
+  "weight": 9,
+  "size": "2x3",
+  "name": "Heavy Eloff",
+  "graphic": 366,
+  "type": "Armor",
+  "subtype": "None",
+  "special": "Normal",
+  "hp": 15,
+  "evade": 2,
+  "armor": 1,
+  "str": 3,
+  "spec1": 34,
+  "spec2": 1,
+  "unknown1": 100
+}

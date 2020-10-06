@@ -1,0 +1,9 @@
+{
+  "id": 153,
+  "name": "Co Worker",
+  "graphic": 117,
+  "type": "Quest",
+  "vendor_id": 20,
+  "maxdam": 2,
+  "accuracy": 2
+}

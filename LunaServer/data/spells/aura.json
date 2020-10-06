@@ -1,0 +1,17 @@
+{
+  "id": 18,
+  "shout": "protection",
+  "name": "Aura",
+  "icon": 1,
+  "graphic": 20,
+  "tp": 4,
+  "sp": 4,
+  "cast_time": 1,
+  "type": "Heal",
+  "target_restrict": "Friendly",
+  "target": "Group",
+  "hp": 10,
+  "unknown1": 1,
+  "unknown3": 1,
+  "unknown4": 1
+}

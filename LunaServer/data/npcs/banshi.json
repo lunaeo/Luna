@@ -1,0 +1,14 @@
+{
+  "id": 209,
+  "name": "Banshi",
+  "graphic": 134,
+  "type": "Aggressive",
+  "hp": 390,
+  "mindam": 3,
+  "maxdam": 16,
+  "accuracy": 12,
+  "evade": 2,
+  "armor": 2,
+  "exp": 120,
+  "unknown2": 3
+}

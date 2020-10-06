@@ -1,0 +1,9 @@
+{
+  "id": 1,
+  "size": "2x1",
+  "name": "Gold",
+  "graphic": 35,
+  "type": "Money",
+  "subtype": "None",
+  "special": "Normal"
+}

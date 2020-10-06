@@ -1,0 +1,12 @@
+{
+  "id": 209,
+  "weight": 2,
+  "size": "2x3",
+  "name": "Guard Shield",
+  "graphic": 217,
+  "type": "Shield",
+  "subtype": "None",
+  "special": "Rare",
+  "spec1": 6,
+  "unknown1": 100
+}

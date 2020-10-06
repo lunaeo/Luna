@@ -1,0 +1,17 @@
+{
+  "id": 406,
+  "weight": 1,
+  "size": "2x3",
+  "name": "Robe of Sanctum",
+  "graphic": 400,
+  "type": "Armor",
+  "subtype": "None",
+  "special": "Normal",
+  "tp": 50,
+  "evade": 1,
+  "armor": 1,
+  "spec1": 39,
+  "spec2": 1,
+  "classreq": 3,
+  "unknown1": 100
+}

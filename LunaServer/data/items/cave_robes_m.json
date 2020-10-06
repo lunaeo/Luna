@@ -1,0 +1,14 @@
+{
+  "id": 131,
+  "weight": 4,
+  "size": "2x3",
+  "name": "Cave Robes",
+  "graphic": 144,
+  "type": "Armor",
+  "subtype": "None",
+  "special": "Normal",
+  "evade": 1,
+  "armor": 1,
+  "spec1": 3,
+  "spec2": 1
+}

@@ -1,0 +1,8 @@
+{
+  "id": 7,
+  "name": "Goat",
+  "graphic": 7,
+  "type": "Passive",
+  "hp": 6,
+  "exp": 8
+}

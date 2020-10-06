@@ -1,0 +1,12 @@
+{
+  "id": 242,
+  "weight": 1,
+  "size": "1x1",
+  "name": "Wraith Key",
+  "graphic": 250,
+  "type": "Key",
+  "subtype": "None",
+  "special": "Lore",
+  "spec1": 4,
+  "unknown1": 100
+}

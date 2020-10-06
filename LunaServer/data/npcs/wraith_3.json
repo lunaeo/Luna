@@ -1,0 +1,13 @@
+{
+  "id": 186,
+  "name": "Wraith",
+  "graphic": 85,
+  "type": "Aggressive",
+  "hp": 156,
+  "mindam": 1,
+  "maxdam": 3,
+  "accuracy": 4,
+  "evade": 1,
+  "armor": 1,
+  "exp": 77
+}

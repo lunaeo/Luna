@@ -1,0 +1,11 @@
+{
+  "id": 419,
+  "weight": 1,
+  "size": "1x1",
+  "name": "Scroll Of Truth",
+  "graphic": 62,
+  "type": "Static",
+  "subtype": "None",
+  "special": "Lore",
+  "unknown1": 100
+}

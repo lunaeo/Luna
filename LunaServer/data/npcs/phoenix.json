@@ -1,0 +1,14 @@
+{
+  "id": 216,
+  "name": "Phoenix",
+  "graphic": 140,
+  "type": "Aggressive",
+  "hp": 1256,
+  "mindam": 3,
+  "maxdam": 5,
+  "accuracy": 12,
+  "evade": 2,
+  "armor": 2,
+  "exp": 91,
+  "unknown2": 6
+}

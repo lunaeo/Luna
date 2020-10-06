@@ -1,0 +1,18 @@
+{
+  "id": 457,
+  "weight": 2,
+  "size": "1x3",
+  "name": "Scav Bow",
+  "graphic": 448,
+  "type": "Weapon",
+  "subtype": "Ranged",
+  "special": "Unique",
+  "mindam": 2,
+  "maxdam": 2,
+  "accuracy": 2,
+  "spec1": 73,
+  "classreq": 5,
+  "element": 6,
+  "elempow": 3,
+  "unknown1": 100
+}

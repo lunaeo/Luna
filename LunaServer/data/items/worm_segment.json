@@ -1,0 +1,11 @@
+{
+  "id": 320,
+  "weight": 1,
+  "size": "1x1",
+  "name": "Worm Segment",
+  "graphic": 319,
+  "type": "Static",
+  "subtype": "None",
+  "special": "Normal",
+  "unknown1": 100
+}

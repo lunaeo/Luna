@@ -1,0 +1,12 @@
+{
+  "id": 170,
+  "name": "Sheep",
+  "graphic": 119,
+  "type": "Passive",
+  "hp": 52,
+  "maxdam": 2,
+  "accuracy": 2,
+  "elementweak": 5,
+  "elemweakpow": 2,
+  "exp": 22
+}

@@ -1,0 +1,11 @@
+{
+  "id": 123,
+  "weight": 1,
+  "size": "2x2",
+  "name": "Grey Sandals",
+  "graphic": 131,
+  "type": "Boots",
+  "subtype": "None",
+  "special": "Normal",
+  "spec1": 44
+}

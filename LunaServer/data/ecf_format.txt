@@ -1,0 +1,9 @@
+string name
+int1 base
+int1 type { Melee Rogue Magic Archer Peasant }
+int2 str
+int2 int
+int2 wis
+int2 agi
+int2 con
+int2 cha

@@ -1,0 +1,9 @@
+{
+  "id": 106,
+  "name": "Kyra",
+  "graphic": 84,
+  "type": "Shop",
+  "vendor_id": 29,
+  "maxdam": 2,
+  "accuracy": 2
+}

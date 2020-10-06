@@ -1,0 +1,15 @@
+{
+  "id": 3,
+  "shout": "group heal",
+  "name": "Group Heal",
+  "icon": 3,
+  "graphic": 10,
+  "tp": 20,
+  "sp": 10,
+  "cast_time": 5,
+  "type": "Heal",
+  "target_restrict": "Friendly",
+  "target": "Group",
+  "hp": 20,
+  "unknown1": 1
+}

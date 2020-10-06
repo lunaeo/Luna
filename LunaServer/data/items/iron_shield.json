@@ -1,0 +1,11 @@
+{
+  "id": 52,
+  "weight": 3,
+  "size": "2x2",
+  "name": "Iron Shield",
+  "graphic": 69,
+  "type": "Shield",
+  "subtype": "None",
+  "special": "Normal",
+  "spec1": 2
+}

@@ -1,0 +1,15 @@
+{
+  "id": 297,
+  "weight": 2,
+  "size": "1x4",
+  "name": "Bow",
+  "graphic": 296,
+  "type": "Weapon",
+  "subtype": "Ranged",
+  "special": "Normal",
+  "mindam": 1,
+  "maxdam": 1,
+  "spec1": 42,
+  "classreq": 5,
+  "unknown1": 100
+}

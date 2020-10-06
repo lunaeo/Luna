@@ -1,0 +1,15 @@
+{
+  "id": 151,
+  "name": "Princess",
+  "graphic": 115,
+  "type": "Passive",
+  "vendor_id": 1,
+  "hp": 13000,
+  "mindam": 21,
+  "maxdam": 24,
+  "accuracy": 24,
+  "evade": 11,
+  "armor": 11,
+  "exp": 150,
+  "unknown2": 42
+}

@@ -1,0 +1,9 @@
+{
+  "id": 126,
+  "name": "Anundo Merchant",
+  "graphic": 84,
+  "type": "Shop",
+  "vendor_id": 35,
+  "maxdam": 2,
+  "accuracy": 2
+}

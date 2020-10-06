@@ -1,0 +1,9 @@
+{
+  "id": 166,
+  "name": "Wise Man",
+  "graphic": 118,
+  "type": "Quest",
+  "vendor_id": 4,
+  "maxdam": 2,
+  "accuracy": 2
+}

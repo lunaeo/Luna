@@ -1,0 +1,21 @@
+{
+  "id": 460,
+  "weight": 2,
+  "size": "2x3",
+  "name": "Oron",
+  "graphic": 450,
+  "type": "Armor",
+  "subtype": "None",
+  "special": "Normal",
+  "hp": 50,
+  "mindam": 1,
+  "maxdam": 1,
+  "accuracy": 7,
+  "evade": 2,
+  "armor": 2,
+  "str": 1,
+  "agi": 7,
+  "spec1": 48,
+  "spec2": 1,
+  "unknown1": 100
+}

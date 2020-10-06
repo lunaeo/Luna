@@ -1,0 +1,11 @@
+{
+  "id": 219,
+  "size": "1x1",
+  "name": "Luna Hair Dye",
+  "graphic": 230,
+  "type": "HairDye",
+  "subtype": "None",
+  "special": "Normal",
+  "spec1": 7,
+  "unknown1": 100
+}

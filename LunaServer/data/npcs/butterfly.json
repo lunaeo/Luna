@@ -1,0 +1,14 @@
+{
+  "id": 133,
+  "name": "Butterfly",
+  "graphic": 98,
+  "type": "Passive",
+  "hp": 390,
+  "mindam": 3,
+  "maxdam": 6,
+  "accuracy": 6,
+  "evade": 2,
+  "armor": 2,
+  "exp": 90,
+  "unknown2": 1
+}

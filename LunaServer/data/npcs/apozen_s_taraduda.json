@@ -1,0 +1,14 @@
+{
+  "id": 256,
+  "name": "Apozen's Taraduda",
+  "graphic": 169,
+  "child": 1,
+  "type": "Passive",
+  "hp": 80,
+  "mindam": 30,
+  "maxdam": 50,
+  "accuracy": 10,
+  "evade": 2,
+  "exp": 92,
+  "unknown2": 3
+}

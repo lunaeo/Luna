@@ -1,0 +1,11 @@
+{
+  "id": 55,
+  "weight": 2,
+  "size": "2x2",
+  "name": "Round Iron Shield",
+  "graphic": 72,
+  "type": "Shield",
+  "subtype": "None",
+  "special": "Normal",
+  "spec1": 3
+}

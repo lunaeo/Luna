@@ -1,0 +1,10 @@
+{
+  "id": 254,
+  "name": "Wraith Guardian",
+  "graphic": 85,
+  "type": "Quest",
+  "vendor_id": 26,
+  "maxdam": 7,
+  "accuracy": 10,
+  "evade": 2
+}

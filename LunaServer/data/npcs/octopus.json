@@ -1,0 +1,16 @@
+{
+  "id": 118,
+  "name": "Octopus",
+  "graphic": 89,
+  "boss": 1,
+  "type": "Aggressive",
+  "vendor_id": 1,
+  "hp": 1300,
+  "mindam": 8,
+  "maxdam": 11,
+  "accuracy": 11,
+  "evade": 4,
+  "armor": 4,
+  "exp": 330,
+  "unknown2": 4
+}

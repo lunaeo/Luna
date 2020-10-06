@@ -1,0 +1,11 @@
+{
+  "id": 57,
+  "weight": 3,
+  "size": "2x3",
+  "name": "Dark Protector",
+  "graphic": 73,
+  "type": "Shield",
+  "subtype": "None",
+  "special": 2,
+  "spec1": 5
+}

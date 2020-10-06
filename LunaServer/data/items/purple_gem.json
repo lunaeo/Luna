@@ -1,0 +1,11 @@
+{
+  "id": 228,
+  "weight": 1,
+  "size": "1x1",
+  "name": "Purple Gem",
+  "graphic": 236,
+  "type": "Accessory",
+  "subtype": "None",
+  "special": "Normal",
+  "unknown1": 100
+}

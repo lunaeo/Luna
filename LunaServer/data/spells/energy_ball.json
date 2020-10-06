@@ -1,0 +1,15 @@
+{
+  "id": 15,
+  "shout": "energy ball",
+  "name": "Energy Ball",
+  "icon": 8,
+  "graphic": 18,
+  "tp": 7,
+  "sp": 1,
+  "cast_time": 4,
+  "type": "Damage",
+  "target_restrict": "Opponent",
+  "target": "Normal",
+  "mindam": 4,
+  "maxdam": 9
+}

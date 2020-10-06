@@ -1,0 +1,19 @@
+{
+  "id": 446,
+  "weight": 1,
+  "size": "2x2",
+  "name": "Fire Force Wings",
+  "graphic": 437,
+  "type": "Shield",
+  "subtype": "Wings",
+  "special": "Lore",
+  "hp": 100,
+  "tp": 100,
+  "mindam": 10,
+  "maxdam": 10,
+  "accuracy": 10,
+  "evade": 10,
+  "armor": 10,
+  "spec1": 19,
+  "unknown1": 100
+}

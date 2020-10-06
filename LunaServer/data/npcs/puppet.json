@@ -1,0 +1,14 @@
+{
+  "id": 173,
+  "name": "Puppet",
+  "graphic": 122,
+  "type": "Passive",
+  "hp": 520,
+  "mindam": 4,
+  "maxdam": 7,
+  "accuracy": 7,
+  "evade": 2,
+  "armor": 2,
+  "exp": 67,
+  "unknown2": 1
+}

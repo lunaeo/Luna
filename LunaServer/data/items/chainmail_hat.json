@@ -1,0 +1,11 @@
+{
+  "id": 180,
+  "weight": 2,
+  "size": "2x2",
+  "name": "Chainmail Hat",
+  "graphic": 192,
+  "type": "Hat",
+  "subtype": "None",
+  "special": "Normal",
+  "spec1": 21
+}

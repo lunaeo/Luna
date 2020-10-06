@@ -1,0 +1,9 @@
+{
+  "id": 192,
+  "name": "Jessica",
+  "graphic": 84,
+  "type": "Quest",
+  "vendor_id": 13,
+  "maxdam": 2,
+  "accuracy": 2
+}

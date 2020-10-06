@@ -1,0 +1,9 @@
+{
+  "id": 154,
+  "name": "Adventurer",
+  "graphic": 34,
+  "type": "Quest",
+  "vendor_id": 28,
+  "maxdam": 2,
+  "accuracy": 2
+}

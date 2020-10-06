@@ -1,0 +1,10 @@
+{
+  "id": 35,
+  "name": "Lobster",
+  "graphic": 26,
+  "type": "Passive",
+  "hp": 20,
+  "maxdam": 2,
+  "accuracy": 2,
+  "exp": 9
+}

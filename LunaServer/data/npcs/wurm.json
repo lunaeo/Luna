@@ -1,0 +1,10 @@
+{
+  "id": 82,
+  "name": "Wurm",
+  "graphic": 60,
+  "type": "Passive",
+  "hp": 52,
+  "maxdam": 2,
+  "accuracy": 2,
+  "exp": 17
+}

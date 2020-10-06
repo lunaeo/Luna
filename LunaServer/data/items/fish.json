@@ -1,0 +1,11 @@
+{
+  "id": 475,
+  "weight": 1,
+  "size": "1x1",
+  "name": "Fish",
+  "graphic": 466,
+  "type": "Static",
+  "subtype": "None",
+  "special": "Normal",
+  "unknown1": 100
+}

@@ -1,0 +1,12 @@
+{
+  "id": 376,
+  "weight": 1,
+  "size": "1x1",
+  "name": "Big Mana Potion",
+  "graphic": 2,
+  "type": "Heal",
+  "subtype": "None",
+  "special": "Normal",
+  "tp": 25,
+  "unknown1": 100
+}

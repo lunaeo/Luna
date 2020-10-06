@@ -1,0 +1,12 @@
+{
+  "id": 334,
+  "weight": 2,
+  "size": "2x2",
+  "name": "Kitty Hat",
+  "graphic": 332,
+  "type": "Hat",
+  "subtype": "None",
+  "special": "Normal",
+  "spec1": 37,
+  "unknown1": 100
+}

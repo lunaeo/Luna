@@ -1,0 +1,10 @@
+{
+  "id": 48,
+  "name": "Undeath",
+  "graphic": 9,
+  "type": "Aggressive",
+  "hp": 52,
+  "maxdam": 2,
+  "accuracy": 2,
+  "exp": 13
+}

@@ -1,0 +1,14 @@
+{
+  "id": 447,
+  "weight": 1,
+  "size": "2x2",
+  "name": "Steel Boots",
+  "graphic": 438,
+  "type": "Boots",
+  "subtype": "None",
+  "special": "Normal",
+  "evade": 1,
+  "armor": 1,
+  "spec1": 52,
+  "unknown1": 100
+}

@@ -1,0 +1,15 @@
+{
+  "id": 371,
+  "weight": 2,
+  "size": "2x3",
+  "name": "Buccanee",
+  "graphic": 368,
+  "type": "Armor",
+  "subtype": "None",
+  "special": "Normal",
+  "evade": 1,
+  "armor": 1,
+  "spec1": 35,
+  "spec2": 1,
+  "unknown1": 100
+}

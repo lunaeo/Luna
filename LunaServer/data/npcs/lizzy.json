@@ -1,0 +1,14 @@
+{
+  "id": 243,
+  "name": "Lizzy",
+  "graphic": 167,
+  "type": "Aggressive",
+  "hp": 100,
+  "mindam": 2,
+  "maxdam": 6,
+  "accuracy": 1,
+  "evade": 1,
+  "armor": 2,
+  "exp": 23,
+  "unknown1": 2
+}

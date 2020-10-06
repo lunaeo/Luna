@@ -1,0 +1,10 @@
+{
+  "id": 13,
+  "name": "Penguin",
+  "graphic": 13,
+  "type": "Passive",
+  "hp": 15,
+  "maxdam": 2,
+  "accuracy": 2,
+  "exp": 12
+}

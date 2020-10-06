@@ -1,0 +1,14 @@
+{
+  "id": 312,
+  "weight": 4,
+  "size": "2x3",
+  "name": "Lotus Armor",
+  "graphic": 311,
+  "type": "Armor",
+  "subtype": "None",
+  "special": "Lore",
+  "evade": 3,
+  "armor": 2,
+  "spec1": 30,
+  "unknown1": 100
+}

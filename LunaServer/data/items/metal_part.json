@@ -1,0 +1,11 @@
+{
+  "id": 397,
+  "weight": 1,
+  "size": "1x1",
+  "name": "Metal Part",
+  "graphic": 391,
+  "type": "Static",
+  "subtype": "None",
+  "special": "Normal",
+  "unknown1": 100
+}

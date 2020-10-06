@@ -1,0 +1,1 @@
+﻿To avoid copyright issues, you must provide your own map files in this directory.

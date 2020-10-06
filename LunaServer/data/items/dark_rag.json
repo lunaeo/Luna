@@ -1,0 +1,11 @@
+{
+  "id": 278,
+  "weight": 1,
+  "size": "1x1",
+  "name": "Dark rag",
+  "graphic": 282,
+  "type": "Static",
+  "subtype": "None",
+  "special": "Normal",
+  "unknown1": 100
+}

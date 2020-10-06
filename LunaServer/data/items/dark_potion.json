@@ -1,0 +1,12 @@
+{
+  "id": 16,
+  "weight": 1,
+  "size": "1x1",
+  "name": "Dark Potion",
+  "graphic": 1,
+  "type": "Heal",
+  "subtype": "None",
+  "special": "Rare",
+  "hp": 10,
+  "tp": 10
+}

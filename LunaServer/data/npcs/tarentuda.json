@@ -1,0 +1,14 @@
+{
+  "id": 248,
+  "name": "Tarentuda",
+  "graphic": 169,
+  "type": "Passive",
+  "hp": 180,
+  "mindam": 6,
+  "maxdam": 9,
+  "accuracy": 10,
+  "evade": 2,
+  "armor": 2,
+  "exp": 88,
+  "unknown2": 2
+}

@@ -1,0 +1,15 @@
+{
+  "id": 19,
+  "shout": "boulders",
+  "name": "Boulders",
+  "icon": 14,
+  "graphic": 21,
+  "tp": 12,
+  "sp": 7,
+  "cast_time": 6,
+  "type": "Damage",
+  "target_restrict": "Opponent",
+  "target": "Normal",
+  "mindam": 30,
+  "maxdam": 40
+}

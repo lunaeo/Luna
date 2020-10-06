@@ -1,0 +1,11 @@
+{
+  "id": 195,
+  "weight": 1,
+  "size": "2x1",
+  "name": "Red Scarf",
+  "graphic": 207,
+  "type": "Hat",
+  "subtype": "None",
+  "special": "Normal",
+  "spec1": 13
+}

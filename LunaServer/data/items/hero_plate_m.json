@@ -1,0 +1,14 @@
+{
+  "id": 158,
+  "weight": 5,
+  "size": "2x3",
+  "name": "Hero Plate",
+  "graphic": 172,
+  "type": "Armor",
+  "subtype": "None",
+  "special": "Normal",
+  "evade": 1,
+  "armor": 1,
+  "spec1": 2,
+  "spec2": 1
+}

@@ -1,0 +1,11 @@
+{
+  "id": 231,
+  "weight": 1,
+  "size": "1x1",
+  "name": "Orange Gem",
+  "graphic": 239,
+  "type": "Accessory",
+  "subtype": "None",
+  "special": "Normal",
+  "unknown1": 100
+}

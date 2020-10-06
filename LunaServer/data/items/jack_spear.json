@@ -1,0 +1,15 @@
+{
+  "id": 454,
+  "weight": 1,
+  "size": "1x4",
+  "name": "Jack Spear",
+  "graphic": 445,
+  "type": "Weapon",
+  "subtype": "None",
+  "special": "Normal",
+  "mindam": 2,
+  "maxdam": 3,
+  "accuracy": 1,
+  "spec1": 70,
+  "unknown1": 100
+}

@@ -1,0 +1,15 @@
+{
+  "id": 1,
+  "shout": "heal self",
+  "name": "Heal Self",
+  "icon": 1,
+  "graphic": 10,
+  "tp": 1,
+  "sp": 2,
+  "cast_time": 1,
+  "type": "Heal",
+  "target_restrict": "Friendly",
+  "target": "Self",
+  "hp": 4,
+  "unknown1": 1
+}

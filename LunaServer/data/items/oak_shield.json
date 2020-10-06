@@ -1,0 +1,15 @@
+{
+  "id": 453,
+  "weight": 2,
+  "size": "2x3",
+  "name": "Oak Shield",
+  "graphic": 444,
+  "type": "Shield",
+  "subtype": "None",
+  "special": "Normal",
+  "hp": 10,
+  "armor": 2,
+  "con": 1,
+  "spec1": 20,
+  "unknown1": 100
+}

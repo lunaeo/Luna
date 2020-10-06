@@ -1,0 +1,14 @@
+{
+  "id": 19,
+  "weight": 2,
+  "size": "1x3",
+  "name": "Broadsword",
+  "graphic": 36,
+  "type": "Weapon",
+  "subtype": "None",
+  "special": "Normal",
+  "mindam": 1,
+  "maxdam": 2,
+  "accuracy": 2,
+  "spec1": 14
+}

@@ -1,0 +1,9 @@
+{
+  "id": 37,
+  "name": "Nomad",
+  "graphic": 20,
+  "type": "Shop",
+  "vendor_id": 15,
+  "maxdam": 2,
+  "accuracy": 2
+}

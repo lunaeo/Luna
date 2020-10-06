@@ -1,0 +1,15 @@
+{
+  "id": 325,
+  "weight": 5,
+  "size": "1x4",
+  "name": "Hockey Stick",
+  "graphic": 324,
+  "type": "Weapon",
+  "subtype": "None",
+  "special": "Normal",
+  "mindam": 1,
+  "maxdam": 2,
+  "accuracy": 1,
+  "spec1": 45,
+  "unknown1": 100
+}

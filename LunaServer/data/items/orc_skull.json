@@ -1,0 +1,10 @@
+{
+  "id": 12,
+  "weight": 1,
+  "size": "1x1",
+  "name": "Orc Skull",
+  "graphic": 28,
+  "type": "Static",
+  "subtype": "None",
+  "special": "Normal"
+}

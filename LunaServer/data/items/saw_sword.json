@@ -1,0 +1,16 @@
+{
+  "id": 456,
+  "weight": 1,
+  "size": "1x3",
+  "name": "Saw Sword",
+  "graphic": 447,
+  "type": "Weapon",
+  "subtype": "None",
+  "special": "Rare",
+  "mindam": 1,
+  "maxdam": 8,
+  "accuracy": 9,
+  "str": 1,
+  "spec1": 72,
+  "unknown1": 100
+}

@@ -1,0 +1,9 @@
+{
+  "id": 237,
+  "name": "Piano Panda",
+  "graphic": 161,
+  "type": "NPC",
+  "maxdam": 1,
+  "accuracy": 1,
+  "evade": 1
+}

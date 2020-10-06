@@ -1,0 +1,11 @@
+{
+  "id": 58,
+  "weight": 1,
+  "size": "2x2",
+  "name": "Leather Gloves",
+  "graphic": 66,
+  "type": "Gloves",
+  "subtype": "None",
+  "special": "Normal",
+  "armor": 1
+}

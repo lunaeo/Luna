@@ -1,0 +1,16 @@
+{
+  "id": 428,
+  "weight": 3,
+  "size": "2x3",
+  "name": "Ketova",
+  "graphic": 419,
+  "type": "Armor",
+  "subtype": "None",
+  "special": "Normal",
+  "hp": 10,
+  "evade": 2,
+  "armor": 4,
+  "spec1": 45,
+  "spec2": 1,
+  "unknown1": 100
+}

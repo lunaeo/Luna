@@ -1,0 +1,15 @@
+{
+  "id": 149,
+  "name": "Proto",
+  "graphic": 114,
+  "type": "Aggressive",
+  "vendor_id": 1,
+  "hp": 2600,
+  "mindam": 11,
+  "maxdam": 18,
+  "accuracy": 18,
+  "evade": 8,
+  "armor": 8,
+  "exp": 432,
+  "unknown2": 11
+}

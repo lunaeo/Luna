@@ -1,0 +1,14 @@
+{
+  "id": 140,
+  "name": "Twin Demon",
+  "graphic": 105,
+  "type": "Aggressive",
+  "hp": 494,
+  "mindam": 3,
+  "maxdam": 6,
+  "accuracy": 6,
+  "evade": 2,
+  "armor": 2,
+  "exp": 90,
+  "unknown2": 1
+}

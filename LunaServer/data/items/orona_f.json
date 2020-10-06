@@ -1,0 +1,20 @@
+{
+  "id": 465,
+  "weight": 2,
+  "size": "2x3",
+  "name": "Orona",
+  "graphic": 455,
+  "type": "Armor",
+  "subtype": "None",
+  "special": "Normal",
+  "hp": 50,
+  "mindam": 1,
+  "maxdam": 1,
+  "accuracy": 7,
+  "evade": 2,
+  "armor": 2,
+  "str": 1,
+  "agi": 7,
+  "spec1": 51,
+  "unknown1": 100
+}

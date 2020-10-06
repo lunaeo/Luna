@@ -1,0 +1,9 @@
+{
+  "id": 167,
+  "name": "Pjedro",
+  "graphic": 24,
+  "type": "Quest",
+  "vendor_id": 1,
+  "maxdam": 2,
+  "accuracy": 2
+}

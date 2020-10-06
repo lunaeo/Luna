@@ -1,0 +1,9 @@
+{
+  "id": 108,
+  "name": "Babarian Captain",
+  "graphic": 11,
+  "type": "Shop",
+  "vendor_id": 31,
+  "maxdam": 2,
+  "accuracy": 2
+}

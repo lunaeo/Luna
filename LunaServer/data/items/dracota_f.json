@@ -1,0 +1,16 @@
+{
+  "id": 459,
+  "weight": 3,
+  "size": "2x3",
+  "name": "Dracota",
+  "graphic": 453,
+  "type": "Armor",
+  "subtype": "None",
+  "special": "Unique",
+  "hp": 10,
+  "evade": 3,
+  "armor": 6,
+  "str": 2,
+  "spec1": 47,
+  "unknown1": 100
+}

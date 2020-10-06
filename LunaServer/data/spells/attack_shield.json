@@ -1,0 +1,16 @@
+{
+  "id": 12,
+  "shout": "attack shield",
+  "name": "Attack Shield",
+  "icon": 7,
+  "graphic": 15,
+  "tp": 1,
+  "sp": 1,
+  "cast_time": 1,
+  "type": "Damage",
+  "target_restrict": "NPC",
+  "target": "Normal",
+  "mindam": 1,
+  "maxdam": 1,
+  "unknown4": 1
+}

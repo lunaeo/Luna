@@ -1,0 +1,9 @@
+{
+  "id": 179,
+  "name": "Halowdale Smith",
+  "graphic": 32,
+  "type": "Shop",
+  "vendor_id": 38,
+  "maxdam": 2,
+  "accuracy": 2
+}

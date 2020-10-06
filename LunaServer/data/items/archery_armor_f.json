@@ -1,0 +1,17 @@
+{
+  "id": 413,
+  "weight": 3,
+  "size": "2x3",
+  "name": "Archery Armor",
+  "graphic": 406,
+  "type": "Armor",
+  "subtype": "None",
+  "special": "Normal",
+  "hp": 10,
+  "accuracy": 4,
+  "evade": 1,
+  "armor": 1,
+  "agi": 5,
+  "spec1": 42,
+  "unknown1": 100
+}

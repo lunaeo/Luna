@@ -1,0 +1,9 @@
+{
+  "id": 199,
+  "name": "Gullio",
+  "graphic": 83,
+  "type": "Quest",
+  "vendor_id": 18,
+  "maxdam": 2,
+  "accuracy": 2
+}

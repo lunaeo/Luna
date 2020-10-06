@@ -1,0 +1,15 @@
+{
+  "id": 461,
+  "weight": 3,
+  "size": "2x3",
+  "name": "Tebar",
+  "graphic": 451,
+  "type": "Armor",
+  "subtype": "None",
+  "special": "Normal",
+  "evade": 1,
+  "armor": 1,
+  "spec1": 49,
+  "spec2": 1,
+  "unknown1": 100
+}

@@ -1,0 +1,12 @@
+{
+  "id": 335,
+  "weight": 2,
+  "size": "2x2",
+  "name": "Hula Hula Hat",
+  "graphic": 333,
+  "type": "Hat",
+  "subtype": "None",
+  "special": "Normal",
+  "spec1": 38,
+  "unknown1": 100
+}

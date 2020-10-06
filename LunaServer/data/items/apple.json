@@ -1,0 +1,11 @@
+{
+  "id": 161,
+  "weight": 1,
+  "size": "1x1",
+  "name": "Apple",
+  "graphic": 30,
+  "type": "Heal",
+  "subtype": "None",
+  "special": "Rare",
+  "hp": 5
+}

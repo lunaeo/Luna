@@ -1,0 +1,16 @@
+{
+  "id": 21,
+  "shout": "ice blast",
+  "name": "Ice Blast",
+  "icon": 13,
+  "graphic": 23,
+  "tp": 1,
+  "sp": 1,
+  "cast_time": 1,
+  "type": "Damage",
+  "target_restrict": "NPC",
+  "target": "Normal",
+  "mindam": 1,
+  "maxdam": 1,
+  "hp": 1
+}

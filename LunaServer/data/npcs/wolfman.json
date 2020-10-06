@@ -1,0 +1,13 @@
+{
+  "id": 74,
+  "name": "Wolfman",
+  "graphic": 52,
+  "type": "Passive",
+  "hp": 104,
+  "mindam": 1,
+  "maxdam": 3,
+  "accuracy": 4,
+  "evade": 1,
+  "armor": 1,
+  "exp": 24
+}

@@ -1,0 +1,11 @@
+{
+  "id": 17,
+  "shout": "bard mode",
+  "name": "Bard",
+  "icon": 6,
+  "graphic": 1,
+  "cast_time": 1,
+  "type": "Bard",
+  "target_restrict": "Friendly",
+  "target": "Normal"
+}

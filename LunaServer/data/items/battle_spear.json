@@ -1,0 +1,15 @@
+{
+  "id": 351,
+  "weight": 2,
+  "size": "1x4",
+  "name": "Battle Spear",
+  "graphic": 350,
+  "type": "Weapon",
+  "subtype": "None",
+  "special": "Normal",
+  "mindam": 2,
+  "maxdam": 2,
+  "accuracy": 1,
+  "spec1": 51,
+  "unknown1": 100
+}

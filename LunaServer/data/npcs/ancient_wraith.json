@@ -1,0 +1,14 @@
+{
+  "id": 255,
+  "name": "Ancient Wraith",
+  "graphic": 171,
+  "type": "Aggressive",
+  "hp": 4000,
+  "mindam": 20,
+  "maxdam": 60,
+  "accuracy": 60,
+  "evade": 22,
+  "armor": 22,
+  "exp": 369,
+  "unknown2": 25
+}

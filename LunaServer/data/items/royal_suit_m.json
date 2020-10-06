@@ -1,0 +1,16 @@
+{
+  "id": 223,
+  "weight": 4,
+  "size": "2x3",
+  "name": "Royal Suit",
+  "graphic": 218,
+  "type": "Armor",
+  "subtype": "None",
+  "special": "Normal",
+  "hp": 10,
+  "evade": 2,
+  "armor": 1,
+  "spec1": 25,
+  "spec2": 1,
+  "unknown1": 100
+}

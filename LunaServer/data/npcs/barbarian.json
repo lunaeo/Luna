@@ -1,0 +1,10 @@
+{
+  "id": 11,
+  "name": "Barbarian",
+  "graphic": 11,
+  "type": "Passive",
+  "hp": 41,
+  "maxdam": 2,
+  "accuracy": 2,
+  "exp": 11
+}

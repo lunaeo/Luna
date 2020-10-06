@@ -1,0 +1,14 @@
+{
+  "id": 105,
+  "name": "Azuorph",
+  "graphic": 81,
+  "type": "Passive",
+  "hp": 343,
+  "mindam": 3,
+  "maxdam": 6,
+  "accuracy": 6,
+  "evade": 2,
+  "armor": 2,
+  "exp": 90,
+  "unknown2": 1
+}

@@ -1,0 +1,9 @@
+{
+  "id": 161,
+  "name": "Halowdale InnKeeper",
+  "graphic": 83,
+  "type": "Inn",
+  "vendor_id": 6,
+  "maxdam": 2,
+  "accuracy": 2
+}

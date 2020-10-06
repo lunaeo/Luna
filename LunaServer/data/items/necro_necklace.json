@@ -1,0 +1,11 @@
+{
+  "id": 51,
+  "weight": 1,
+  "size": "2x1",
+  "name": "Necro Necklace",
+  "graphic": 68,
+  "type": "Necklace",
+  "subtype": "None",
+  "special": "Normal",
+  "tp": 10
+}

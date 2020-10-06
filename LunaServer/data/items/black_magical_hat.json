@@ -1,0 +1,11 @@
+{
+  "id": 174,
+  "weight": 2,
+  "size": "2x2",
+  "name": "Black Magical Hat",
+  "graphic": 186,
+  "type": "Hat",
+  "subtype": "None",
+  "special": "Normal",
+  "spec1": 2
+}

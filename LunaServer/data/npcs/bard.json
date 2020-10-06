@@ -1,0 +1,9 @@
+{
+  "id": 162,
+  "name": "Bard",
+  "graphic": 24,
+  "type": "Skills",
+  "vendor_id": 3,
+  "maxdam": 2,
+  "accuracy": 2
+}

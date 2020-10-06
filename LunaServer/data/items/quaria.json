@@ -1,0 +1,12 @@
+{
+  "id": 379,
+  "weight": 1,
+  "size": "2x2",
+  "name": "Quaria",
+  "graphic": 373,
+  "type": "Shield",
+  "subtype": "None",
+  "special": "Normal",
+  "spec1": 8,
+  "unknown1": 100
+}

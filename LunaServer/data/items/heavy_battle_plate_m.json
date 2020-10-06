@@ -1,0 +1,14 @@
+{
+  "id": 155,
+  "weight": 1,
+  "size": "2x3",
+  "name": "Heavy Battle Plate",
+  "graphic": 169,
+  "type": "Armor",
+  "subtype": "None",
+  "special": "Normal",
+  "evade": 1,
+  "armor": 1,
+  "spec1": 20,
+  "spec2": 1
+}

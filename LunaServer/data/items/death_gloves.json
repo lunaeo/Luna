@@ -1,0 +1,13 @@
+{
+  "id": 267,
+  "weight": 1,
+  "size": "2x2",
+  "name": "Death Gloves",
+  "graphic": 272,
+  "type": "Gloves",
+  "subtype": "None",
+  "special": "Rare",
+  "evade": 1,
+  "armor": 1,
+  "unknown1": 100
+}

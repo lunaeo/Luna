@@ -1,0 +1,10 @@
+{
+  "id": 73,
+  "weight": 1,
+  "size": "1x1",
+  "name": "Dark Crystal",
+  "graphic": 81,
+  "type": "Accessory",
+  "subtype": "None",
+  "special": "Unique"
+}

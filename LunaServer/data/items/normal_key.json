@@ -1,0 +1,12 @@
+{
+  "id": 239,
+  "weight": 1,
+  "size": "1x1",
+  "name": "Normal Key",
+  "graphic": 247,
+  "type": "Key",
+  "subtype": "None",
+  "special": "Normal",
+  "spec1": 1,
+  "unknown1": 100
+}

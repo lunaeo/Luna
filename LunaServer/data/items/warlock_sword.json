@@ -1,0 +1,15 @@
+{
+  "id": 272,
+  "weight": 2,
+  "size": "1x3",
+  "name": "Warlock Sword",
+  "graphic": 277,
+  "type": "Weapon",
+  "subtype": "None",
+  "special": "Unique",
+  "mindam": 1,
+  "maxdam": 2,
+  "accuracy": 3,
+  "spec1": 31,
+  "unknown1": 100
+}

@@ -1,0 +1,10 @@
+{
+  "id": 250,
+  "name": "Lost Pirate",
+  "graphic": 24,
+  "type": "Quest",
+  "vendor_id": 22,
+  "maxdam": 7,
+  "accuracy": 10,
+  "evade": 2
+}

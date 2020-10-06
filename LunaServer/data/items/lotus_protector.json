@@ -1,0 +1,12 @@
+{
+  "id": 417,
+  "weight": 1,
+  "size": "2x2",
+  "name": "Lotus Protector",
+  "graphic": 410,
+  "type": "Shield",
+  "subtype": "None",
+  "special": "Normal",
+  "spec1": 12,
+  "unknown1": 100
+}

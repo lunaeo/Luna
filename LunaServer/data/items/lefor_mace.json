@@ -1,0 +1,15 @@
+{
+  "id": 328,
+  "weight": 1,
+  "size": "1x3",
+  "name": "Lefor Mace",
+  "graphic": 327,
+  "type": "Weapon",
+  "subtype": "None",
+  "special": "Normal",
+  "mindam": 1,
+  "maxdam": 3,
+  "accuracy": 2,
+  "spec1": 47,
+  "unknown1": 100
+}

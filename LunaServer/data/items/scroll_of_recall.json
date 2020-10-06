@@ -1,0 +1,9 @@
+{
+  "id": 65,
+  "size": "1x1",
+  "name": "Scroll Of Recall",
+  "graphic": 62,
+  "type": "Teleport",
+  "subtype": "None",
+  "special": "Normal"
+}

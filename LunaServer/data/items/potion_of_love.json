@@ -1,0 +1,12 @@
+{
+  "id": 292,
+  "weight": 1,
+  "size": "1x1",
+  "name": "Potion of Love",
+  "graphic": 9,
+  "type": "EffectPotion",
+  "subtype": "None",
+  "special": "Normal",
+  "spec1": 1,
+  "unknown1": 100
+}

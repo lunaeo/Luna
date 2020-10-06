@@ -1,0 +1,17 @@
+{
+  "id": 282,
+  "weight": 2,
+  "size": "1x3",
+  "name": "Ice Blade",
+  "graphic": 291,
+  "type": "Weapon",
+  "subtype": "None",
+  "special": "Normal",
+  "mindam": 1,
+  "maxdam": 2,
+  "accuracy": 3,
+  "spec1": 34,
+  "element": 6,
+  "elempow": 22,
+  "unknown1": 100
+}

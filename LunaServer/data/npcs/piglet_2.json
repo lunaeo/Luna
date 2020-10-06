@@ -1,0 +1,9 @@
+{
+  "id": 231,
+  "name": "Piglet",
+  "graphic": 155,
+  "type": "Passive",
+  "hp": 6,
+  "exp": 6,
+  "unknown1": 1
+}

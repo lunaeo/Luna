@@ -1,0 +1,14 @@
+{
+  "id": 464,
+  "weight": 2,
+  "size": "2x3",
+  "name": "Pwep",
+  "graphic": 454,
+  "type": "Armor",
+  "subtype": "None",
+  "special": "Normal",
+  "evade": 1,
+  "cha": 1,
+  "spec1": 49,
+  "unknown1": 100
+}

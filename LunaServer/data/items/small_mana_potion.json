@@ -1,0 +1,11 @@
+{
+  "id": 3,
+  "weight": 1,
+  "size": "1x1",
+  "name": "small Mana Potion",
+  "graphic": 14,
+  "type": "Heal",
+  "subtype": "None",
+  "special": "Normal",
+  "tp": 5
+}

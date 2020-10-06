@@ -1,0 +1,16 @@
+{
+  "id": 43,
+  "weight": 1,
+  "size": "2x1",
+  "name": "Leather Belt",
+  "graphic": 60,
+  "type": "Belt",
+  "subtype": "None",
+  "special": "Normal",
+  "hp": 10,
+  "evade": 1,
+  "agi": 2,
+  "con": 2,
+  "element": 4,
+  "elempow": 100
+}

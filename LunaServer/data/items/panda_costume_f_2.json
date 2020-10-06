@@ -1,0 +1,13 @@
+{
+  "id": 202,
+  "weight": 8,
+  "size": "2x3",
+  "name": "Panda Costume",
+  "graphic": 165,
+  "type": "Armor",
+  "subtype": "None",
+  "special": "Lore",
+  "evade": 1,
+  "armor": 1,
+  "spec1": 15
+}

@@ -1,0 +1,15 @@
+{
+  "id": 434,
+  "weight": 1,
+  "size": "2x2",
+  "name": "Chains",
+  "graphic": 425,
+  "type": "Weapon",
+  "subtype": "None",
+  "special": "Normal",
+  "mindam": 1,
+  "maxdam": 4,
+  "accuracy": 2,
+  "spec1": 66,
+  "unknown1": 100
+}

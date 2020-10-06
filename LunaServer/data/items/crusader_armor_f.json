@@ -1,0 +1,14 @@
+{
+  "id": 343,
+  "weight": 4,
+  "size": "2x3",
+  "name": "Crusader Armor",
+  "graphic": 341,
+  "type": "Armor",
+  "subtype": "None",
+  "special": "Normal",
+  "evade": 2,
+  "armor": 1,
+  "spec1": 35,
+  "unknown1": 100
+}

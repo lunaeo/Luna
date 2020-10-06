@@ -1,0 +1,8 @@
+{
+  "id": 158,
+  "name": "Bank Master",
+  "graphic": 109,
+  "type": "Bank",
+  "maxdam": 2,
+  "accuracy": 2
+}

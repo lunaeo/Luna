@@ -1,0 +1,14 @@
+{
+  "id": 47,
+  "weight": 5,
+  "size": "2x3",
+  "name": "Cleric Custome",
+  "graphic": 65,
+  "type": "Armor",
+  "subtype": "None",
+  "special": "Normal",
+  "evade": 1,
+  "armor": 1,
+  "spec1": 13,
+  "spec2": 1
+}

@@ -1,0 +1,10 @@
+{
+  "id": 17,
+  "name": "Skeleton",
+  "graphic": 16,
+  "type": "Passive",
+  "hp": 26,
+  "maxdam": 2,
+  "accuracy": 2,
+  "exp": 10
+}

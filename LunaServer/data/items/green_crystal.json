@@ -1,0 +1,11 @@
+{
+  "id": 399,
+  "weight": 1,
+  "size": "1x1",
+  "name": "Green Crystal",
+  "graphic": 393,
+  "type": "Static",
+  "subtype": "None",
+  "special": "Normal",
+  "unknown1": 100
+}

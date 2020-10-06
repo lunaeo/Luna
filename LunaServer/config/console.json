@@ -1,0 +1,11 @@
+﻿{
+  /* A list of triggers to avoid writing to the console.
+  Useful for debugging purposes, as some triggers can be very spammy.
+  */
+  "ConsoleMode": "Debug",
+  "DebugIgnoreConsoleTriggers": [
+    "0:1",
+    "1:35",
+    "5:19"
+  ]
+}

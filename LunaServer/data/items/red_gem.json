@@ -1,0 +1,11 @@
+{
+  "id": 230,
+  "weight": 1,
+  "size": "1x1",
+  "name": "Red Gem",
+  "graphic": 238,
+  "type": "Accessory",
+  "subtype": "None",
+  "special": "Normal",
+  "unknown1": 100
+}

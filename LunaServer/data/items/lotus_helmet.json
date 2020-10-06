@@ -1,0 +1,12 @@
+{
+  "id": 330,
+  "weight": 2,
+  "size": "2x2",
+  "name": "Lotus Helmet",
+  "graphic": 329,
+  "type": "Hat",
+  "subtype": "None",
+  "special": "Unique",
+  "spec1": 36,
+  "unknown1": 100
+}

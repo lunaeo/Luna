@@ -1,0 +1,12 @@
+{
+  "id": 375,
+  "weight": 1,
+  "size": "1x1",
+  "name": "Big Health Potion",
+  "graphic": 11,
+  "type": "Heal",
+  "subtype": "None",
+  "special": "Normal",
+  "hp": 100,
+  "unknown1": 100
+}

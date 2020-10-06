@@ -1,0 +1,12 @@
+{
+  "id": 452,
+  "weight": 1,
+  "size": "2x2",
+  "name": "Pirate Cap",
+  "graphic": 443,
+  "type": "Hat",
+  "subtype": "None",
+  "special": "Lore",
+  "spec1": 49,
+  "unknown1": 100
+}

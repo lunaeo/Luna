@@ -1,0 +1,13 @@
+{
+  "id": 249,
+  "name": "Monkey",
+  "graphic": 170,
+  "type": "Passive",
+  "hp": 120,
+  "mindam": 2,
+  "maxdam": 2,
+  "accuracy": 10,
+  "evade": 2,
+  "exp": 36,
+  "unknown2": 1
+}

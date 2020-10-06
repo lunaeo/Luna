@@ -1,0 +1,11 @@
+{
+  "id": 289,
+  "size": "2x2",
+  "name": "Eloff Helmet",
+  "graphic": 294,
+  "type": "Hat",
+  "subtype": "None",
+  "special": "Normal",
+  "spec1": 30,
+  "unknown1": 100
+}

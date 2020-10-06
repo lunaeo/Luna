@@ -1,0 +1,14 @@
+{
+  "id": 27,
+  "shout": "power wind",
+  "name": "Power Wind",
+  "icon": 10,
+  "graphic": 30,
+  "cast_time": 1,
+  "type": "Damage",
+  "target_restrict": "NPC",
+  "target": "Normal",
+  "mindam": 3,
+  "maxdam": 3,
+  "unknown2": 100
+}

@@ -1,0 +1,11 @@
+{
+  "id": 309,
+  "weight": 1,
+  "size": "1x1",
+  "name": "Frog Scrubs",
+  "graphic": 308,
+  "type": "Static",
+  "subtype": "None",
+  "special": "Normal",
+  "unknown1": 100
+}

@@ -1,0 +1,9 @@
+{
+  "id": 87,
+  "name": "Marble",
+  "graphic": 53,
+  "type": "Shop",
+  "vendor_id": 26,
+  "maxdam": 2,
+  "accuracy": 2
+}

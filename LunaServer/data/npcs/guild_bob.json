@@ -1,0 +1,8 @@
+{
+  "id": 46,
+  "name": "Guild Bob",
+  "graphic": 28,
+  "type": "Guild",
+  "maxdam": 2,
+  "accuracy": 2
+}

@@ -1,0 +1,15 @@
+{
+  "id": 364,
+  "weight": 2,
+  "size": "2x3",
+  "name": "Oblon Armor",
+  "graphic": 362,
+  "type": "Armor",
+  "subtype": "None",
+  "special": "Normal",
+  "evade": 3,
+  "armor": 1,
+  "spec1": 33,
+  "spec2": 1,
+  "unknown1": 100
+}

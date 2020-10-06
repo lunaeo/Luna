@@ -1,0 +1,19 @@
+{
+  "id": 16,
+  "shout": "tornado",
+  "name": "Whirl",
+  "icon": 9,
+  "graphic": 19,
+  "tp": 1,
+  "sp": 1,
+  "cast_time": 1,
+  "type": "Damage",
+  "element": 6,
+  "elempow": 50,
+  "target_restrict": "Opponent",
+  "target": "Normal",
+  "mindam": 15,
+  "maxdam": 150,
+  "accuracy": 15,
+  "hp": 1
+}

@@ -1,0 +1,11 @@
+{
+  "id": 198,
+  "name": "Doll",
+  "graphic": 131,
+  "type": "Aggressive",
+  "hp": 1,
+  "mindam": 1,
+  "maxdam": 1,
+  "accuracy": 2,
+  "exp": 5
+}

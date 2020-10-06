@@ -1,0 +1,15 @@
+{
+  "id": 13,
+  "shout": "fire ring",
+  "name": "Ring of Fire",
+  "icon": 4,
+  "graphic": 16,
+  "tp": 1,
+  "sp": 1,
+  "type": "Heal",
+  "target_restrict": "Friendly",
+  "target": "Normal",
+  "hp": 1,
+  "unknown1": 1,
+  "unknown3": 1
+}

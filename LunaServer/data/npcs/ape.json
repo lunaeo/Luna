@@ -1,0 +1,15 @@
+{
+  "id": 244,
+  "name": "Ape",
+  "graphic": 168,
+  "type": "Aggressive",
+  "hp": 260,
+  "mindam": 4,
+  "maxdam": 6,
+  "accuracy": 1,
+  "evade": 4,
+  "armor": 4,
+  "exp": 66,
+  "unknown1": 4,
+  "unknown2": 1
+}

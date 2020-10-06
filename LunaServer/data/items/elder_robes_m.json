@@ -1,0 +1,19 @@
+{
+  "id": 204,
+  "weight": 3,
+  "size": "2x3",
+  "name": "Elder Robes",
+  "graphic": 212,
+  "type": "Armor",
+  "subtype": "None",
+  "special": "Lore",
+  "hp": 100,
+  "tp": 100,
+  "mindam": 10,
+  "maxdam": 10,
+  "accuracy": 10,
+  "evade": 10,
+  "armor": 10,
+  "spec1": 24,
+  "spec2": 1
+}

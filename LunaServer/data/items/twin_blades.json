@@ -1,0 +1,16 @@
+{
+  "id": 327,
+  "weight": 4,
+  "size": "2x4",
+  "name": "Twin Blades",
+  "graphic": 326,
+  "type": "Weapon",
+  "subtype": "None",
+  "special": "Unique",
+  "mindam": 1,
+  "maxdam": 8,
+  "accuracy": 3,
+  "str": 1,
+  "spec1": 46,
+  "unknown1": 100
+}

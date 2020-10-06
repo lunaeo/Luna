@@ -1,0 +1,14 @@
+{
+  "id": 136,
+  "weight": 4,
+  "size": "2x3",
+  "name": "Thief clothes",
+  "graphic": 149,
+  "type": "Armor",
+  "subtype": "None",
+  "special": "Normal",
+  "evade": 1,
+  "armor": 1,
+  "spec1": 10,
+  "spec2": 1
+}

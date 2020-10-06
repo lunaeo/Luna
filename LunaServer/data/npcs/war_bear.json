@@ -1,0 +1,9 @@
+{
+  "id": 194,
+  "name": "War Bear",
+  "graphic": 128,
+  "type": "Passive",
+  "maxdam": 2,
+  "accuracy": 2,
+  "exp": 3
+}

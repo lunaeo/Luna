@@ -1,0 +1,11 @@
+{
+  "id": 258,
+  "weight": 1,
+  "size": "1x1",
+  "name": "Goat Horn",
+  "graphic": 260,
+  "type": "Static",
+  "subtype": "None",
+  "special": "Normal",
+  "unknown1": 100
+}

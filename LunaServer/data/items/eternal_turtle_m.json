@@ -1,0 +1,14 @@
+{
+  "id": 153,
+  "weight": 5,
+  "size": "2x3",
+  "name": "Eternal Turtle",
+  "graphic": 145,
+  "type": "Armor",
+  "subtype": "None",
+  "special": "Cursed",
+  "evade": 1,
+  "armor": 1,
+  "spec1": 4,
+  "spec2": 1
+}

@@ -1,0 +1,14 @@
+{
+  "id": 462,
+  "weight": 2,
+  "size": "2x3",
+  "name": "Docter Outfit",
+  "graphic": 452,
+  "type": "Armor",
+  "subtype": "None",
+  "special": "Normal",
+  "cha": 2,
+  "spec1": 50,
+  "spec2": 1,
+  "unknown1": 100
+}

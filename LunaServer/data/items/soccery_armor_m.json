@@ -1,0 +1,18 @@
+{
+  "id": 410,
+  "weight": 1,
+  "size": "2x3",
+  "name": "Soccery Armor",
+  "graphic": 404,
+  "type": "Armor",
+  "subtype": "None",
+  "special": "Normal",
+  "tp": 30,
+  "evade": 1,
+  "armor": 1,
+  "int": 1,
+  "wis": 1,
+  "spec1": 41,
+  "spec2": 1,
+  "unknown1": 100
+}

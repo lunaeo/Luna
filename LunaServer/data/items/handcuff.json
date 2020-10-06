@@ -1,0 +1,11 @@
+{
+  "id": 401,
+  "weight": 1,
+  "size": "1x1",
+  "name": "Handcuff",
+  "graphic": 395,
+  "type": "Static",
+  "subtype": "None",
+  "special": "Normal",
+  "unknown1": 100
+}

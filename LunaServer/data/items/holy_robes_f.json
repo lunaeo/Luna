@@ -1,0 +1,13 @@
+{
+  "id": 149,
+  "weight": 5,
+  "size": "2x3",
+  "name": "Holy Robes",
+  "graphic": 163,
+  "type": "Armor",
+  "subtype": "None",
+  "special": "Normal",
+  "evade": 1,
+  "armor": 1,
+  "spec1": 16
+}

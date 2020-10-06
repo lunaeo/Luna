@@ -1,0 +1,15 @@
+{
+  "id": 227,
+  "name": "Vitaman",
+  "graphic": 151,
+  "type": "Aggressive",
+  "hp": 700,
+  "mindam": 10,
+  "maxdam": 40,
+  "accuracy": 10,
+  "evade": 4,
+  "armor": 4,
+  "exp": 146,
+  "unknown1": 1,
+  "unknown2": 5
+}

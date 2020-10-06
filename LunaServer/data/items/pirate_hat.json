@@ -1,0 +1,12 @@
+{
+  "id": 314,
+  "weight": 1,
+  "size": "2x2",
+  "name": "Pirate Hat",
+  "graphic": 313,
+  "type": "Hat",
+  "subtype": "None",
+  "special": "Lore",
+  "spec1": 35,
+  "unknown1": 100
+}

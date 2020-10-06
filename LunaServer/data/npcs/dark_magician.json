@@ -1,0 +1,14 @@
+{
+  "id": 207,
+  "name": "Dark Magician",
+  "graphic": 132,
+  "type": "Aggressive",
+  "hp": 130,
+  "mindam": 3,
+  "maxdam": 9,
+  "accuracy": 8,
+  "evade": 1,
+  "armor": 1,
+  "exp": 90,
+  "unknown2": 1
+}

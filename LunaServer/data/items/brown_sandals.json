@@ -1,0 +1,11 @@
+{
+  "id": 105,
+  "weight": 1,
+  "size": "2x2",
+  "name": "Brown Sandals",
+  "graphic": 113,
+  "type": "Boots",
+  "subtype": "None",
+  "special": "Normal",
+  "spec1": 26
+}

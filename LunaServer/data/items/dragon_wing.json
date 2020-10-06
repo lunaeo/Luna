@@ -1,0 +1,11 @@
+{
+  "id": 470,
+  "weight": 1,
+  "size": "1x1",
+  "name": "Dragon Wing",
+  "graphic": 461,
+  "type": "Static",
+  "subtype": "None",
+  "special": "Normal",
+  "unknown1": 100
+}

@@ -1,0 +1,9 @@
+{
+  "id": 197,
+  "name": "Maze Master",
+  "graphic": 83,
+  "type": "Quest",
+  "vendor_id": 17,
+  "maxdam": 2,
+  "accuracy": 2
+}

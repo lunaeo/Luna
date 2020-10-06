@@ -1,0 +1,15 @@
+{
+  "id": 6,
+  "shout": "admin love",
+  "name": "Admin Heal",
+  "icon": 3,
+  "graphic": 10,
+  "tp": 2,
+  "sp": 2,
+  "cast_time": 2,
+  "type": "Heal",
+  "target_restrict": "Friendly",
+  "target": "Normal",
+  "hp": 5000,
+  "unknown1": 1
+}

@@ -1,0 +1,8 @@
+{
+  "id": 114,
+  "name": "Priest",
+  "graphic": 86,
+  "type": "Priest",
+  "maxdam": 2,
+  "accuracy": 2
+}

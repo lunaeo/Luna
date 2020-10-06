@@ -1,0 +1,9 @@
+{
+  "id": 159,
+  "name": "Anundo Innkeeper",
+  "graphic": 109,
+  "type": "Inn",
+  "vendor_id": 4,
+  "maxdam": 2,
+  "accuracy": 2
+}

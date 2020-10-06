@@ -1,0 +1,9 @@
+{
+  "id": 36,
+  "name": "Witch",
+  "graphic": 22,
+  "type": "Shop",
+  "vendor_id": 14,
+  "maxdam": 2,
+  "accuracy": 2
+}

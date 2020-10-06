@@ -1,0 +1,11 @@
+{
+  "id": 259,
+  "weight": 1,
+  "size": "1x1",
+  "name": "Penguin Meat",
+  "graphic": 270,
+  "type": "Static",
+  "subtype": "None",
+  "special": "Normal",
+  "unknown1": 100
+}

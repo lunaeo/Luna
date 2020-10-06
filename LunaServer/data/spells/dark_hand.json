@@ -1,0 +1,13 @@
+{
+  "id": 23,
+  "shout": "darkness come to me",
+  "name": "Dark Hand",
+  "icon": 10,
+  "graphic": 26,
+  "cast_time": 1,
+  "type": "Damage",
+  "target_restrict": "NPC",
+  "target": "Normal",
+  "mindam": 1,
+  "maxdam": 2
+}

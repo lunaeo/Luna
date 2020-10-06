@@ -1,0 +1,9 @@
+{
+  "id": 156,
+  "name": "Estaq Innkeeper",
+  "graphic": 84,
+  "type": "Inn",
+  "vendor_id": 3,
+  "maxdam": 2,
+  "accuracy": 2
+}

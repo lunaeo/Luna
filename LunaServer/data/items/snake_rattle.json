@@ -1,0 +1,11 @@
+{
+  "id": 254,
+  "weight": 1,
+  "size": "1x1",
+  "name": "Snake Rattle",
+  "graphic": 264,
+  "type": "Static",
+  "subtype": "None",
+  "special": "Normal",
+  "unknown1": 100
+}

@@ -1,0 +1,12 @@
+{
+  "id": 119,
+  "name": "Tentacle",
+  "graphic": 90,
+  "child": 1,
+  "type": "Passive",
+  "hp": 65,
+  "mindam": 2,
+  "maxdam": 5,
+  "accuracy": 3,
+  "exp": 20
+}

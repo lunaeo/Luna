@@ -1,0 +1,10 @@
+{
+  "id": 78,
+  "name": "Bullfrog",
+  "graphic": 56,
+  "type": "Passive",
+  "hp": 52,
+  "maxdam": 2,
+  "accuracy": 2,
+  "exp": 9
+}

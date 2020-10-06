@@ -1,0 +1,11 @@
+{
+  "id": 249,
+  "weight": 1,
+  "size": "1x1",
+  "name": "Rat Tail",
+  "graphic": 262,
+  "type": "Static",
+  "subtype": "None",
+  "special": "Normal",
+  "unknown1": 100
+}

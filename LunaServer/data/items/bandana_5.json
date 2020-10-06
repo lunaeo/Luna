@@ -1,0 +1,11 @@
+{
+  "id": 186,
+  "weight": 1,
+  "size": "2x1",
+  "name": "Bandana",
+  "graphic": 198,
+  "type": "Hat",
+  "subtype": "None",
+  "special": "Normal",
+  "spec1": 11
+}

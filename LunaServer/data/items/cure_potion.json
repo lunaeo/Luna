@@ -1,0 +1,10 @@
+{
+  "id": 13,
+  "weight": 1,
+  "size": "1x1",
+  "name": "Cure Potion",
+  "graphic": 7,
+  "type": "CureCurse",
+  "subtype": "None",
+  "special": "Normal"
+}

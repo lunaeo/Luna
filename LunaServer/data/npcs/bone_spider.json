@@ -1,0 +1,15 @@
+{
+  "id": 183,
+  "name": "Bone Spider",
+  "graphic": 125,
+  "type": "Aggressive",
+  "vendor_id": 1,
+  "hp": 260,
+  "mindam": 2,
+  "maxdam": 12,
+  "accuracy": 5,
+  "evade": 1,
+  "armor": 1,
+  "exp": 120,
+  "unknown2": 2
+}

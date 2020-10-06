@@ -1,0 +1,12 @@
+{
+  "id": 416,
+  "weight": 1,
+  "size": "2x2",
+  "name": "Royal Protector",
+  "graphic": 409,
+  "type": "Shield",
+  "subtype": "None",
+  "special": "Normal",
+  "spec1": 13,
+  "unknown1": 100
+}

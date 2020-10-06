@@ -1,0 +1,14 @@
+{
+  "id": 35,
+  "weight": 1,
+  "size": "1x1",
+  "name": "Spirit Star",
+  "graphic": 52,
+  "type": "Weapon",
+  "subtype": "None",
+  "special": "Normal",
+  "mindam": 1,
+  "maxdam": 2,
+  "accuracy": 1,
+  "spec1": 10
+}

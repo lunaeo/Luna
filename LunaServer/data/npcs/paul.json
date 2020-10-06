@@ -1,0 +1,8 @@
+{
+  "id": 55,
+  "name": "Paul",
+  "graphic": 34,
+  "type": "NPC",
+  "maxdam": 2,
+  "accuracy": 2
+}

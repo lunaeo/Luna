@@ -1,0 +1,14 @@
+{
+  "id": 141,
+  "name": "Dwarf Warrior",
+  "graphic": 106,
+  "type": "Aggressive",
+  "hp": 260,
+  "mindam": 4,
+  "maxdam": 7,
+  "accuracy": 7,
+  "evade": 2,
+  "armor": 2,
+  "exp": 73,
+  "unknown2": 1
+}

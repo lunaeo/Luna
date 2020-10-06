@@ -1,0 +1,14 @@
+{
+  "id": 145,
+  "name": "Crane",
+  "graphic": 110,
+  "type": "Aggressive",
+  "hp": 1066,
+  "mindam": 7,
+  "maxdam": 10,
+  "accuracy": 10,
+  "evade": 4,
+  "armor": 4,
+  "exp": 138,
+  "unknown2": 3
+}

@@ -1,0 +1,19 @@
+{
+  "id": 10,
+  "shout": "fire from the sky",
+  "name": "Fire Ball",
+  "icon": 12,
+  "graphic": 14,
+  "tp": 14,
+  "sp": 9,
+  "cast_time": 12,
+  "type": "Damage",
+  "element": 3,
+  "elempow": 50,
+  "target_restrict": "Opponent",
+  "target": "Normal",
+  "mindam": 1,
+  "maxdam": 55,
+  "accuracy": 15,
+  "unknown4": 1
+}

@@ -1,0 +1,13 @@
+{
+  "id": 172,
+  "name": "Blocto",
+  "graphic": 121,
+  "type": "Passive",
+  "hp": 33,
+  "mindam": 1,
+  "maxdam": 3,
+  "accuracy": 4,
+  "evade": 1,
+  "armor": 1,
+  "exp": 18
+}

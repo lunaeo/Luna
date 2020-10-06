@@ -1,0 +1,12 @@
+{
+  "id": 1,
+  "name": "Crow",
+  "graphic": 1,
+  "type": "Passive",
+  "hp": 5,
+  "maxdam": 2,
+  "accuracy": 2,
+  "elementweak": 6,
+  "elemweakpow": 1,
+  "exp": 5
+}

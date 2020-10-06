@@ -1,0 +1,9 @@
+{
+  "id": 188,
+  "name": "Nena",
+  "graphic": 53,
+  "type": "Quest",
+  "vendor_id": 9,
+  "maxdam": 2,
+  "accuracy": 2
+}

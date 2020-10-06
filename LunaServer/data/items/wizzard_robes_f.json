@@ -1,0 +1,13 @@
+{
+  "id": 127,
+  "weight": 4,
+  "size": "2x3",
+  "name": "Wizzard Robes",
+  "graphic": 140,
+  "type": "Armor",
+  "subtype": "None",
+  "special": "Normal",
+  "evade": 1,
+  "armor": 1,
+  "spec1": 13
+}

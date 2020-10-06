@@ -1,0 +1,12 @@
+{
+  "id": 350,
+  "weight": 3,
+  "size": "2x3",
+  "name": "Guitar",
+  "graphic": 348,
+  "type": "Weapon",
+  "subtype": "None",
+  "special": "Normal",
+  "spec1": 50,
+  "unknown1": 100
+}

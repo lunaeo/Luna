@@ -1,0 +1,14 @@
+{
+  "id": 218,
+  "name": "Espring",
+  "graphic": 142,
+  "type": "Passive",
+  "hp": 150,
+  "mindam": 2,
+  "maxdam": 7,
+  "accuracy": 6,
+  "evade": 2,
+  "armor": 2,
+  "exp": 77,
+  "unknown2": 1
+}

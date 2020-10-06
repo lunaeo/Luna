@@ -1,0 +1,15 @@
+{
+  "id": 174,
+  "name": "King Wurm",
+  "graphic": 123,
+  "type": "Aggressive",
+  "vendor_id": 1,
+  "hp": 7020,
+  "mindam": 10,
+  "maxdam": 11,
+  "accuracy": 13,
+  "evade": 21,
+  "armor": 21,
+  "exp": 210,
+  "unknown2": 26
+}

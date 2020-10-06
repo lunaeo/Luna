@@ -1,0 +1,13 @@
+{
+  "id": 168,
+  "weight": 7,
+  "size": "2x3",
+  "name": "Red Plate",
+  "graphic": 179,
+  "type": "Armor",
+  "subtype": "None",
+  "special": "Normal",
+  "evade": 1,
+  "armor": 1,
+  "spec1": 7
+}

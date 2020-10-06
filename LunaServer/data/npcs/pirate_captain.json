@@ -1,0 +1,9 @@
+{
+  "id": 175,
+  "name": "Pirate Captain",
+  "graphic": 24,
+  "type": "Quest",
+  "vendor_id": 6,
+  "maxdam": 2,
+  "accuracy": 2
+}

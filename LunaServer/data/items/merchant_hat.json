@@ -1,0 +1,11 @@
+{
+  "id": 198,
+  "weight": 2,
+  "size": "2x2",
+  "name": "Merchant Hat",
+  "graphic": 210,
+  "type": "Hat",
+  "subtype": "None",
+  "special": "Normal",
+  "spec1": 26
+}

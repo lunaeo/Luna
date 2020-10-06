@@ -1,0 +1,41 @@
+string name
+int2 graphic
+int1 type { Static ? Money Heal Teleport Spell EXPReward StatReward SkillReward Key Weapon Shield Armor Hat Boots Gloves Accessory Belt Necklace Ring Armlet Bracer Beer EffectPotion HairDye CureCurse }
+int1 subtype { None Ranged Arrows Wings TwoHanded }
+int1 special { Normal Rare ? Unique Lore Cursed }
+int2 hp
+int2 tp
+int2 mindam
+int2 maxdam
+int2 accuracy
+int2 evade
+int2 armor
+int1 -
+int1 str
+int1 int
+int1 wis
+int1 agi
+int1 con
+int1 cha
+int1 -
+int1 -
+int1 -
+int1 -
+int1 -
+int1 -
+int3 spec1
+int1 spec2
+int1 spec3
+int2 levelreq
+int2 classreq
+int2 strreq
+int2 intreq
+int2 wisreq
+int2 agireq
+int2 conreq
+int2 chareq
+int1 element
+int1 elempow
+int1 weight
+int1 unknown1
+int1 size { 1x1 1x2 1x3 1x4 2x1 2x2 2x3 2x4 }

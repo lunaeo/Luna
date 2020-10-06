@@ -1,0 +1,11 @@
+{
+  "id": 235,
+  "weight": 1,
+  "size": "1x1",
+  "name": "Magic Charm",
+  "graphic": 243,
+  "type": "Accessory",
+  "subtype": "None",
+  "special": "Normal",
+  "unknown1": 100
+}

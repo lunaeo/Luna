@@ -1,0 +1,14 @@
+{
+  "id": 246,
+  "name": "Teawcusar",
+  "graphic": 75,
+  "type": "Aggressive",
+  "hp": 400,
+  "mindam": 4,
+  "maxdam": 7,
+  "accuracy": 10,
+  "evade": 2,
+  "armor": 2,
+  "exp": 2,
+  "unknown1": 4
+}

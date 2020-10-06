@@ -1,0 +1,9 @@
+{
+  "id": 160,
+  "name": "Centaur InnKeeper",
+  "graphic": 34,
+  "type": "Inn",
+  "vendor_id": 5,
+  "maxdam": 2,
+  "accuracy": 2
+}

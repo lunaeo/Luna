@@ -1,0 +1,12 @@
+{
+  "id": 392,
+  "weight": 1,
+  "size": "2x2",
+  "name": "Chappy",
+  "graphic": 386,
+  "type": "Hat",
+  "subtype": "None",
+  "special": "Normal",
+  "spec1": 42,
+  "unknown1": 100
+}

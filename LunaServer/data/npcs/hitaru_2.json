@@ -1,0 +1,9 @@
+{
+  "id": 200,
+  "name": "Hitaru",
+  "graphic": 83,
+  "type": "Quest",
+  "vendor_id": 19,
+  "maxdam": 2,
+  "accuracy": 2
+}

@@ -1,0 +1,12 @@
+{
+  "id": 273,
+  "weight": 1,
+  "size": "2x2",
+  "name": "Christmas Hat",
+  "graphic": 278,
+  "type": "Hat",
+  "subtype": "None",
+  "special": "Unique",
+  "spec1": 29,
+  "unknown1": 100
+}

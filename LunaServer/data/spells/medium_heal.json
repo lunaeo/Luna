@@ -1,0 +1,15 @@
+{
+  "id": 7,
+  "shout": "medium heal",
+  "name": "Medium Heal",
+  "icon": 2,
+  "graphic": 10,
+  "tp": 7,
+  "sp": 6,
+  "cast_time": 1,
+  "type": "Heal",
+  "target_restrict": "Friendly",
+  "target": "Normal",
+  "hp": 25,
+  "unknown1": 1
+}

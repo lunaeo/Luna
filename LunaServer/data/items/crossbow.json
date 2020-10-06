@@ -1,0 +1,15 @@
+{
+  "id": 316,
+  "weight": 4,
+  "size": "2x3",
+  "name": "Crossbow",
+  "graphic": 315,
+  "type": "Weapon",
+  "subtype": "Ranged",
+  "special": "Unique",
+  "mindam": 1,
+  "maxdam": 1,
+  "spec1": 43,
+  "classreq": 5,
+  "unknown1": 100
+}

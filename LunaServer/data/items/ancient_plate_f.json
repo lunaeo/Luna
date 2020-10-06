@@ -1,0 +1,15 @@
+{
+  "id": 275,
+  "weight": 4,
+  "size": "2x3",
+  "name": "Ancient Plate",
+  "graphic": 280,
+  "type": "Armor",
+  "subtype": "None",
+  "special": "Unique",
+  "hp": 10,
+  "evade": 2,
+  "armor": 2,
+  "spec1": 28,
+  "unknown1": 100
+}

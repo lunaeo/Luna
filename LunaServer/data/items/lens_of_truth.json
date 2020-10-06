@@ -1,0 +1,17 @@
+{
+  "id": 421,
+  "weight": 3,
+  "size": "1x3",
+  "name": "Lens Of Truth",
+  "graphic": 412,
+  "type": "Weapon",
+  "subtype": "None",
+  "special": "Unique",
+  "hp": 10,
+  "tp": 50,
+  "mindam": 4,
+  "maxdam": 7,
+  "accuracy": 3,
+  "spec1": 63,
+  "unknown1": 100
+}

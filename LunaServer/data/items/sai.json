@@ -1,0 +1,18 @@
+{
+  "id": 26,
+  "weight": 1,
+  "size": "1x2",
+  "name": "Sai",
+  "graphic": 43,
+  "type": "Weapon",
+  "subtype": "None",
+  "special": "Normal",
+  "mindam": 1,
+  "maxdam": 2,
+  "accuracy": 1,
+  "spec1": 2,
+  "levelreq": 3,
+  "agireq": 5,
+  "conreq": 3,
+  "chareq": 3
+}

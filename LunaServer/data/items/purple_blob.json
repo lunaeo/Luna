@@ -1,0 +1,11 @@
+{
+  "id": 303,
+  "weight": 1,
+  "size": "1x1",
+  "name": "Purple Blob",
+  "graphic": 302,
+  "type": "Static",
+  "subtype": "None",
+  "special": "Normal",
+  "unknown1": 100
+}

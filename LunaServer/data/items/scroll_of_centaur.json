@@ -1,0 +1,12 @@
+{
+  "id": 66,
+  "size": "1x1",
+  "name": "Scroll Of Centaur",
+  "graphic": 62,
+  "type": "Teleport",
+  "subtype": "None",
+  "special": "Normal",
+  "spec1": 29,
+  "spec2": 23,
+  "spec3": 21
+}

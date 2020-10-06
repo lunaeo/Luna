@@ -1,0 +1,11 @@
+{
+  "id": 197,
+  "weight": 2,
+  "size": "2x2",
+  "name": "Dragon Mask",
+  "graphic": 209,
+  "type": "Hat",
+  "subtype": "None",
+  "special": "Unique",
+  "spec1": 15
+}

@@ -1,0 +1,11 @@
+{
+  "id": 277,
+  "weight": 1,
+  "size": "1x1",
+  "name": "Vyercil tentacles",
+  "graphic": 283,
+  "type": "Static",
+  "subtype": "None",
+  "special": "Normal",
+  "unknown1": 100
+}

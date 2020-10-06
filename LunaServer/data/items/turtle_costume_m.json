@@ -1,0 +1,14 @@
+{
+  "id": 171,
+  "weight": 6,
+  "size": "2x3",
+  "name": "Turtle Costume",
+  "graphic": 182,
+  "type": "Armor",
+  "subtype": "None",
+  "special": "Normal",
+  "evade": 1,
+  "armor": 1,
+  "spec1": 4,
+  "spec2": 1
+}

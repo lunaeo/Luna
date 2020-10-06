@@ -1,0 +1,14 @@
+{
+  "id": 134,
+  "weight": 5,
+  "size": "2x3",
+  "name": "Sweater",
+  "graphic": 147,
+  "type": "Armor",
+  "subtype": "None",
+  "special": "Normal",
+  "evade": 1,
+  "armor": 1,
+  "spec1": 6,
+  "spec2": 1
+}

@@ -1,0 +1,12 @@
+{
+  "id": 467,
+  "weight": 1,
+  "size": "2x1",
+  "name": "Medic Cap",
+  "graphic": 458,
+  "type": "Hat",
+  "subtype": "None",
+  "special": "Normal",
+  "spec1": 50,
+  "unknown1": 100
+}

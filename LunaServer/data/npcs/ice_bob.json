@@ -1,0 +1,9 @@
+{
+  "id": 49,
+  "name": "Ice Bob",
+  "graphic": 15,
+  "type": "Shop",
+  "vendor_id": 23,
+  "maxdam": 2,
+  "accuracy": 2
+}

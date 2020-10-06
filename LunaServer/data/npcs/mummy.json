@@ -1,0 +1,10 @@
+{
+  "id": 4,
+  "name": "Mummy",
+  "graphic": 4,
+  "type": "Passive",
+  "hp": 26,
+  "maxdam": 2,
+  "accuracy": 2,
+  "exp": 6
+}

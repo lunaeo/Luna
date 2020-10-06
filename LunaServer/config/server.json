@@ -1,0 +1,13 @@
+﻿{
+  /* The IP address the server should listen on. */
+  "Host": "127.0.0.1",
+
+  /* The port the server should listen on. */
+  "Port": 8000,
+
+  /* The maximum amount of connections that can be established per IP. */
+  "MaxConnectionsPerIP": 5,
+
+  /* How often (in milliseconds) to send a ping to connected players. 0 to disable. */
+  "PingRate": 60000
+}

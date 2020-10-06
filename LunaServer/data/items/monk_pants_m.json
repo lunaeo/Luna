@@ -1,0 +1,14 @@
+{
+  "id": 166,
+  "weight": 4,
+  "size": "2x3",
+  "name": "Monk Pants",
+  "graphic": 177,
+  "type": "Armor",
+  "subtype": "None",
+  "special": "Normal",
+  "evade": 1,
+  "armor": 1,
+  "spec1": 8,
+  "spec2": 1
+}

@@ -1,0 +1,10 @@
+{
+  "id": 8,
+  "name": "Centaur",
+  "graphic": 8,
+  "type": "Passive",
+  "hp": 41,
+  "maxdam": 2,
+  "accuracy": 2,
+  "exp": 7
+}

@@ -1,0 +1,14 @@
+{
+  "id": 139,
+  "name": "Swamp Monster",
+  "graphic": 104,
+  "type": "Passive",
+  "hp": 1040,
+  "mindam": 6,
+  "maxdam": 9,
+  "accuracy": 9,
+  "evade": 3,
+  "armor": 3,
+  "exp": 170,
+  "unknown2": 3
+}

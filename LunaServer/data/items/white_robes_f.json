@@ -1,0 +1,14 @@
+{
+  "id": 324,
+  "weight": 3,
+  "size": "2x3",
+  "name": "White Robes",
+  "graphic": 323,
+  "type": "Armor",
+  "subtype": "None",
+  "special": "Lore",
+  "evade": 1,
+  "armor": 1,
+  "spec1": 31,
+  "unknown1": 100
+}

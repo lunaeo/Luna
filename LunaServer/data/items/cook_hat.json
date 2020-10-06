@@ -1,0 +1,12 @@
+{
+  "id": 448,
+  "weight": 1,
+  "size": "2x2",
+  "name": "Cook Hat",
+  "graphic": 439,
+  "type": "Hat",
+  "subtype": "None",
+  "special": "Normal",
+  "spec1": 47,
+  "unknown1": 100
+}

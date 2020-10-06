@@ -1,0 +1,15 @@
+{
+  "id": 11,
+  "shout": "magic shield",
+  "name": "Magic Shield",
+  "icon": 7,
+  "graphic": 15,
+  "tp": 1,
+  "sp": 3,
+  "cast_time": 1,
+  "type": "Heal",
+  "target_restrict": "Friendly",
+  "target": "Normal",
+  "hp": 1,
+  "unknown1": 1
+}

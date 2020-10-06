@@ -1,0 +1,11 @@
+{
+  "id": 418,
+  "weight": 2,
+  "size": "2x2",
+  "name": "Aztec Crown",
+  "graphic": 405,
+  "type": "Static",
+  "subtype": "None",
+  "special": "Lore",
+  "unknown1": 100
+}

@@ -1,0 +1,12 @@
+{
+  "id": 295,
+  "weight": 1,
+  "size": "1x1",
+  "name": "Potion of Evil",
+  "graphic": 1,
+  "type": "EffectPotion",
+  "subtype": "None",
+  "special": "Normal",
+  "spec1": 6,
+  "unknown1": 100
+}

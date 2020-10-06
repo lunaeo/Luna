@@ -1,0 +1,14 @@
+{
+  "id": 33,
+  "weight": 1,
+  "size": "1x2",
+  "name": "Holy Book",
+  "graphic": 50,
+  "type": "Weapon",
+  "subtype": "None",
+  "special": "Normal",
+  "mindam": 1,
+  "maxdam": 2,
+  "accuracy": 1,
+  "spec1": 8
+}

@@ -1,0 +1,12 @@
+{
+  "id": 64,
+  "size": "1x1",
+  "name": "Scroll Of Ancient",
+  "graphic": 62,
+  "type": "Teleport",
+  "subtype": "None",
+  "special": "Normal",
+  "spec1": 54,
+  "spec2": 13,
+  "spec3": 18
+}

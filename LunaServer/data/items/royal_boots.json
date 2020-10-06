@@ -1,0 +1,12 @@
+{
+  "id": 268,
+  "weight": 1,
+  "size": "2x2",
+  "name": "Royal Boots",
+  "graphic": 273,
+  "type": "Boots",
+  "subtype": "None",
+  "special": "Unique",
+  "spec1": 48,
+  "unknown1": 100
+}

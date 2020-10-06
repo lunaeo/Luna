@@ -1,0 +1,10 @@
+{
+  "id": 76,
+  "weight": 1,
+  "size": "1x1",
+  "name": "Eternal Crystal",
+  "graphic": 84,
+  "type": "Accessory",
+  "subtype": "None",
+  "special": "Unique"
+}

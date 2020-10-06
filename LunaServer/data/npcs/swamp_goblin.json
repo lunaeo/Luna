@@ -1,0 +1,13 @@
+{
+  "id": 130,
+  "name": "Swamp Goblin",
+  "graphic": 95,
+  "type": "Passive",
+  "hp": 260,
+  "mindam": 2,
+  "maxdam": 4,
+  "accuracy": 5,
+  "evade": 1,
+  "armor": 1,
+  "exp": 34
+}

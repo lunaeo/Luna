@@ -1,0 +1,15 @@
+{
+  "id": 373,
+  "weight": 3,
+  "size": "2x3",
+  "name": "Elegant",
+  "graphic": 370,
+  "type": "Armor",
+  "subtype": "None",
+  "special": "Normal",
+  "evade": 2,
+  "armor": 3,
+  "spec1": 37,
+  "spec2": 1,
+  "unknown1": 100
+}

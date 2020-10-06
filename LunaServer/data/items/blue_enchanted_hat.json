@@ -1,0 +1,11 @@
+{
+  "id": 176,
+  "weight": 1,
+  "size": "2x2",
+  "name": "Blue Enchanted Hat",
+  "graphic": 188,
+  "type": "Hat",
+  "subtype": "None",
+  "special": "Normal",
+  "spec1": 4
+}

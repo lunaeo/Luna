@@ -1,0 +1,11 @@
+{
+  "id": 196,
+  "weight": 2,
+  "size": "2x2",
+  "name": "Samurai Hat",
+  "graphic": 199,
+  "type": "Hat",
+  "subtype": "None",
+  "special": "Normal",
+  "spec1": 24
+}

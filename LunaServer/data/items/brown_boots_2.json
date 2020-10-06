@@ -1,0 +1,11 @@
+{
+  "id": 84,
+  "weight": 1,
+  "size": "2x2",
+  "name": "Brown Boots",
+  "graphic": 92,
+  "type": "Boots",
+  "subtype": "None",
+  "special": "Normal",
+  "spec1": 5
+}

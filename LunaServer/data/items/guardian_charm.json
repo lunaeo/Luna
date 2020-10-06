@@ -1,0 +1,11 @@
+{
+  "id": 236,
+  "weight": 1,
+  "size": "1x1",
+  "name": "Guardian Charm",
+  "graphic": 244,
+  "type": "Accessory",
+  "subtype": "None",
+  "special": "Normal",
+  "unknown1": 100
+}

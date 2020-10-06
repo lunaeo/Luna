@@ -1,0 +1,9 @@
+{
+  "id": 112,
+  "name": "Xmas Shop",
+  "graphic": 53,
+  "type": "Shop",
+  "vendor_id": 34,
+  "maxdam": 2,
+  "accuracy": 2
+}

@@ -1,0 +1,11 @@
+{
+  "id": 306,
+  "weight": 1,
+  "size": "1x1",
+  "name": "Navy Blob",
+  "graphic": 305,
+  "type": "Static",
+  "subtype": "None",
+  "special": "Normal",
+  "unknown1": 100
+}

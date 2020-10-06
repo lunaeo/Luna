@@ -1,0 +1,15 @@
+{
+  "id": 360,
+  "weight": 2,
+  "size": "2x3",
+  "name": "War Axe",
+  "graphic": 358,
+  "type": "Weapon",
+  "subtype": "None",
+  "special": "Normal",
+  "mindam": 2,
+  "maxdam": 2,
+  "accuracy": 2,
+  "spec1": 53,
+  "unknown1": 100
+}

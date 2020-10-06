@@ -1,0 +1,11 @@
+{
+  "id": 227,
+  "weight": 1,
+  "size": "1x1",
+  "name": "Blue Gem",
+  "graphic": 235,
+  "type": "Accessory",
+  "subtype": "None",
+  "special": "Normal",
+  "unknown1": 100
+}

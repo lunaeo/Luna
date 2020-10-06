@@ -1,0 +1,12 @@
+{
+  "id": 247,
+  "weight": 1,
+  "size": "2x2",
+  "name": "Helmy",
+  "graphic": 253,
+  "type": "Hat",
+  "subtype": "None",
+  "special": "Normal",
+  "spec1": 28,
+  "unknown1": 100
+}

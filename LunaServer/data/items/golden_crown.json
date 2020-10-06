@@ -1,0 +1,12 @@
+{
+  "id": 411,
+  "weight": 1,
+  "size": "2x2",
+  "name": "Golden Crown",
+  "graphic": 405,
+  "type": "Hat",
+  "subtype": "None",
+  "special": "Unique",
+  "spec1": 43,
+  "unknown1": 100
+}

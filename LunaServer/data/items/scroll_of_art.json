@@ -1,0 +1,13 @@
+{
+  "id": 367,
+  "size": "1x1",
+  "name": "Scroll Of Art",
+  "graphic": 62,
+  "type": "Teleport",
+  "subtype": "None",
+  "special": "Normal",
+  "spec1": 154,
+  "spec2": 2,
+  "spec3": 11,
+  "unknown1": 100
+}

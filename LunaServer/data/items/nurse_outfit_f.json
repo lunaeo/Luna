@@ -1,0 +1,13 @@
+{
+  "id": 463,
+  "weight": 2,
+  "size": "2x3",
+  "name": "Nurse Outfit",
+  "graphic": 456,
+  "type": "Armor",
+  "subtype": "None",
+  "special": "Normal",
+  "cha": 2,
+  "spec1": 50,
+  "unknown1": 100
+}

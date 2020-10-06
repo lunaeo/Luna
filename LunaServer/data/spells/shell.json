@@ -1,0 +1,13 @@
+{
+  "id": 30,
+  "shout": "shell",
+  "name": "Shell",
+  "icon": 10,
+  "graphic": 33,
+  "cast_time": 1,
+  "type": "Heal",
+  "target_restrict": "Friendly",
+  "target": "Normal",
+  "hp": 1,
+  "unknown2": 100
+}

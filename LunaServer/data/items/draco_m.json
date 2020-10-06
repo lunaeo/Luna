@@ -1,0 +1,17 @@
+{
+  "id": 458,
+  "weight": 3,
+  "size": "2x3",
+  "name": "Draco",
+  "graphic": 449,
+  "type": "Armor",
+  "subtype": "None",
+  "special": "Unique",
+  "hp": 10,
+  "evade": 3,
+  "armor": 6,
+  "str": 2,
+  "spec1": 47,
+  "spec2": 1,
+  "unknown1": 100
+}

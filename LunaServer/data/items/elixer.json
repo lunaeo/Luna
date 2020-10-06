@@ -1,0 +1,13 @@
+{
+  "id": 377,
+  "weight": 1,
+  "size": "1x1",
+  "name": "Elixer",
+  "graphic": 10,
+  "type": "Heal",
+  "subtype": "None",
+  "special": "Normal",
+  "hp": 120,
+  "tp": 40,
+  "unknown1": 100
+}

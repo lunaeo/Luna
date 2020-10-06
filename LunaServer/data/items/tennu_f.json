@@ -1,0 +1,13 @@
+{
+  "id": 172,
+  "weight": 5,
+  "size": "2x3",
+  "name": "Tennu",
+  "graphic": 183,
+  "type": "Armor",
+  "subtype": "None",
+  "special": "Normal",
+  "evade": 1,
+  "armor": 1,
+  "spec1": 19
+}

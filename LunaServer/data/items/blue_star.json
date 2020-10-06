@@ -1,0 +1,10 @@
+{
+  "id": 336,
+  "size": "1x1",
+  "name": "Blue Star",
+  "graphic": 334,
+  "type": "Static",
+  "subtype": "None",
+  "special": "Normal",
+  "unknown1": 100
+}

@@ -1,0 +1,12 @@
+{
+  "id": 31,
+  "shout": "green flame",
+  "name": "Green Flame",
+  "icon": 1,
+  "graphic": 34,
+  "cast_time": 1,
+  "type": "Damage",
+  "target_restrict": "NPC",
+  "target": "Normal",
+  "unknown2": 100
+}

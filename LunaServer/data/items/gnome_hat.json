@@ -1,0 +1,11 @@
+{
+  "id": 340,
+  "weight": 1,
+  "size": "1x1",
+  "name": "Gnome Hat",
+  "graphic": 338,
+  "type": "Static",
+  "subtype": "None",
+  "special": "Normal",
+  "unknown1": 100
+}

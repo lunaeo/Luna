@@ -1,0 +1,15 @@
+{
+  "id": 346,
+  "weight": 1,
+  "size": "2x3",
+  "name": "Burk",
+  "graphic": 344,
+  "type": "Armor",
+  "subtype": "None",
+  "special": "Rare",
+  "evade": 1,
+  "armor": 1,
+  "spec1": 32,
+  "spec2": 1,
+  "unknown1": 100
+}

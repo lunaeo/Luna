@@ -1,0 +1,13 @@
+{
+  "id": 72,
+  "name": "Birdman Guard",
+  "graphic": 50,
+  "type": "Passive",
+  "hp": 124,
+  "mindam": 1,
+  "maxdam": 3,
+  "accuracy": 4,
+  "evade": 1,
+  "armor": 1,
+  "exp": 16
+}

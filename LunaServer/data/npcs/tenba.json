@@ -1,0 +1,15 @@
+{
+  "id": 232,
+  "name": "Tenba",
+  "graphic": 156,
+  "type": "Aggressive",
+  "hp": 189,
+  "mindam": 1,
+  "maxdam": 3,
+  "accuracy": 5,
+  "evade": 2,
+  "armor": 1,
+  "exp": 82,
+  "unknown1": 1,
+  "unknown2": 3
+}

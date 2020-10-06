@@ -1,0 +1,16 @@
+{
+  "id": 423,
+  "weight": 1,
+  "size": "1x3",
+  "name": "Normal Arrows",
+  "graphic": 414,
+  "type": "Shield",
+  "subtype": "Arrows",
+  "special": "Normal",
+  "mindam": 1,
+  "maxdam": 3,
+  "accuracy": 1,
+  "spec1": 14,
+  "classreq": 5,
+  "unknown1": 100
+}

@@ -1,0 +1,14 @@
+{
+  "id": 96,
+  "name": "Stone Gollem",
+  "graphic": 73,
+  "type": "Passive",
+  "hp": 260,
+  "mindam": 10,
+  "maxdam": 23,
+  "accuracy": 5,
+  "evade": 1,
+  "armor": 1,
+  "exp": 150,
+  "unknown2": 2
+}

@@ -1,0 +1,9 @@
+{
+  "id": 41,
+  "name": "Weapon Smith",
+  "graphic": 25,
+  "type": "Shop",
+  "vendor_id": 19,
+  "maxdam": 2,
+  "accuracy": 2
+}

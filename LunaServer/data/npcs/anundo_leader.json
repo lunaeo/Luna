@@ -1,0 +1,16 @@
+{
+  "id": 120,
+  "name": "Anundo Leader",
+  "graphic": 91,
+  "boss": 1,
+  "type": "Passive",
+  "vendor_id": 1,
+  "hp": 1170,
+  "mindam": 7,
+  "maxdam": 10,
+  "accuracy": 10,
+  "evade": 4,
+  "armor": 4,
+  "exp": 270,
+  "unknown2": 3
+}

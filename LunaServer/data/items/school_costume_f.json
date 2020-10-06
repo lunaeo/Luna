@@ -1,0 +1,14 @@
+{
+  "id": 348,
+  "weight": 2,
+  "size": "2x3",
+  "name": "School Costume",
+  "graphic": 346,
+  "type": "Armor",
+  "subtype": "None",
+  "special": "Normal",
+  "evade": 1,
+  "armor": 1,
+  "spec1": 34,
+  "unknown1": 100
+}

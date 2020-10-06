@@ -1,0 +1,9 @@
+{
+  "id": 190,
+  "name": "Pjedro's Son",
+  "graphic": 54,
+  "type": "Quest",
+  "vendor_id": 12,
+  "maxdam": 2,
+  "accuracy": 2
+}

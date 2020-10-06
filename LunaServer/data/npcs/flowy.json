@@ -1,0 +1,15 @@
+{
+  "id": 223,
+  "name": "Flowy",
+  "graphic": 147,
+  "type": "Passive",
+  "hp": 122,
+  "mindam": 3,
+  "maxdam": 7,
+  "accuracy": 6,
+  "evade": 1,
+  "armor": 1,
+  "exp": 58,
+  "unknown1": 1,
+  "unknown2": 1
+}

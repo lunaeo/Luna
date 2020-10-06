@@ -1,0 +1,11 @@
+{
+  "id": 226,
+  "weight": 1,
+  "size": "1x1",
+  "name": "Yellow Gem",
+  "graphic": 234,
+  "type": "Accessory",
+  "subtype": "None",
+  "special": "Normal",
+  "unknown1": 100
+}

@@ -1,0 +1,11 @@
+{
+  "id": 53,
+  "weight": 3,
+  "size": "2x3",
+  "name": "Kite Shield",
+  "graphic": 70,
+  "type": "Shield",
+  "subtype": "None",
+  "special": "Normal",
+  "spec1": 4
+}

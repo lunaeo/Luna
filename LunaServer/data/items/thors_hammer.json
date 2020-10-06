@@ -1,0 +1,14 @@
+{
+  "id": 225,
+  "weight": 2,
+  "size": "2x3",
+  "name": "Thors Hammer",
+  "graphic": 233,
+  "type": "Weapon",
+  "subtype": "None",
+  "special": "Normal",
+  "maxdam": 3,
+  "accuracy": 1,
+  "spec1": 26,
+  "unknown1": 100
+}

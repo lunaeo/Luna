@@ -1,0 +1,11 @@
+{
+  "id": 232,
+  "weight": 1,
+  "size": "1x1",
+  "name": "Luna Gem",
+  "graphic": 240,
+  "type": "Accessory",
+  "subtype": "None",
+  "special": "Normal",
+  "unknown1": 100
+}

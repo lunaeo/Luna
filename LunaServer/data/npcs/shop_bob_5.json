@@ -1,0 +1,9 @@
+{
+  "id": 24,
+  "name": "Shop Bob",
+  "graphic": 15,
+  "type": "Shop",
+  "vendor_id": 5,
+  "maxdam": 2,
+  "accuracy": 2
+}

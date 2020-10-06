@@ -1,0 +1,8 @@
+{
+  "id": 157,
+  "name": "Guild Master",
+  "graphic": 109,
+  "type": "Guild",
+  "maxdam": 2,
+  "accuracy": 2
+}

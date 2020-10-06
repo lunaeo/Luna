@@ -1,0 +1,14 @@
+{
+  "id": 240,
+  "name": "Hamster",
+  "graphic": 164,
+  "type": "Passive",
+  "hp": 100,
+  "mindam": 1,
+  "maxdam": 1,
+  "accuracy": 2,
+  "evade": 2,
+  "armor": 1,
+  "exp": 20,
+  "unknown1": 1
+}

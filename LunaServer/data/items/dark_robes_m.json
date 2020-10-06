@@ -1,0 +1,14 @@
+{
+  "id": 156,
+  "weight": 1,
+  "size": "2x3",
+  "name": "Dark Robes",
+  "graphic": 170,
+  "type": "Armor",
+  "subtype": "None",
+  "special": "Normal",
+  "evade": 1,
+  "armor": 1,
+  "spec1": 15,
+  "spec2": 1
+}

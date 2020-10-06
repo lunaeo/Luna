@@ -1,0 +1,10 @@
+{
+  "id": 258,
+  "name": "Cave Researcher",
+  "graphic": 117,
+  "type": "Quest",
+  "vendor_id": 27,
+  "maxdam": 7,
+  "accuracy": 10,
+  "evade": 2
+}

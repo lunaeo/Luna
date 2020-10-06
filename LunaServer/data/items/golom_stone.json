@@ -1,0 +1,11 @@
+{
+  "id": 339,
+  "weight": 1,
+  "size": "1x1",
+  "name": "Golom Stone",
+  "graphic": 337,
+  "type": "Static",
+  "subtype": "None",
+  "special": "Normal",
+  "unknown1": 100
+}

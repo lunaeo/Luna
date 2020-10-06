@@ -1,0 +1,9 @@
+{
+  "id": 26,
+  "name": "Juweller",
+  "graphic": 20,
+  "type": "Shop",
+  "vendor_id": 7,
+  "maxdam": 2,
+  "accuracy": 2
+}

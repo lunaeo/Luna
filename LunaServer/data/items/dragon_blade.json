@@ -1,0 +1,14 @@
+{
+  "id": 37,
+  "weight": 3,
+  "size": "1x4",
+  "name": "Dragon Blade",
+  "graphic": 54,
+  "type": "Weapon",
+  "subtype": "None",
+  "special": "Unique",
+  "mindam": 1,
+  "maxdam": 2,
+  "accuracy": 1,
+  "spec1": 3
+}

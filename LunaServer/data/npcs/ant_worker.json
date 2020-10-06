@@ -1,0 +1,13 @@
+{
+  "id": 84,
+  "name": "Ant Worker",
+  "graphic": 62,
+  "type": "Passive",
+  "hp": 166,
+  "mindam": 2,
+  "maxdam": 4,
+  "accuracy": 5,
+  "evade": 1,
+  "armor": 1,
+  "exp": 38
+}

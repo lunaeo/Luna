@@ -1,0 +1,14 @@
+{
+  "id": 171,
+  "name": "Biter",
+  "graphic": 120,
+  "type": "Aggressive",
+  "hp": 99,
+  "mindam": 2,
+  "maxdam": 30,
+  "accuracy": 6,
+  "evade": 2,
+  "armor": 2,
+  "exp": 81,
+  "unknown2": 2
+}

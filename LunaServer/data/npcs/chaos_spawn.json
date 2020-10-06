@@ -1,0 +1,12 @@
+{
+  "id": 51,
+  "name": "Chaos Spawn",
+  "graphic": 31,
+  "type": "Aggressive",
+  "hp": 200,
+  "mindam": 4,
+  "maxdam": 4,
+  "accuracy": 100,
+  "exp": 100,
+  "unknown2": 7
+}

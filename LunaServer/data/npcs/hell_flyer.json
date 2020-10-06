@@ -1,0 +1,16 @@
+{
+  "id": 184,
+  "name": "Hell Flyer",
+  "graphic": 126,
+  "type": "Aggressive",
+  "hp": 650,
+  "mindam": 5,
+  "maxdam": 8,
+  "accuracy": 8,
+  "evade": 3,
+  "armor": 3,
+  "elementweak": 3,
+  "elemweakpow": 20,
+  "exp": 90,
+  "unknown2": 3
+}

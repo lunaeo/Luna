@@ -1,0 +1,14 @@
+{
+  "id": 182,
+  "name": "Gnoll",
+  "graphic": 124,
+  "type": "Passive",
+  "hp": 1300,
+  "mindam": 2,
+  "maxdam": 4,
+  "accuracy": 11,
+  "evade": 4,
+  "armor": 4,
+  "exp": 216,
+  "unknown2": 5
+}

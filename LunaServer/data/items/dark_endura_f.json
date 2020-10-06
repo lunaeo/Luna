@@ -1,0 +1,19 @@
+{
+  "id": 466,
+  "weight": 2,
+  "size": "2x3",
+  "name": "Dark Endura",
+  "graphic": 457,
+  "type": "Armor",
+  "subtype": "None",
+  "special": "Normal",
+  "tp": 10,
+  "evade": 1,
+  "armor": 1,
+  "int": 2,
+  "wis": 2,
+  "spec1": 48,
+  "element": 2,
+  "elempow": 5,
+  "unknown1": 100
+}

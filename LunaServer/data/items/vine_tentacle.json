@@ -1,0 +1,11 @@
+{
+  "id": 403,
+  "weight": 1,
+  "size": "1x1",
+  "name": "Vine Tentacle",
+  "graphic": 397,
+  "type": "Static",
+  "subtype": "None",
+  "special": "Normal",
+  "unknown1": 100
+}

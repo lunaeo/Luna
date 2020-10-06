@@ -1,0 +1,12 @@
+{
+  "id": 69,
+  "size": "1x1",
+  "name": "Scroll Of Void",
+  "graphic": 62,
+  "type": "Teleport",
+  "subtype": "None",
+  "special": "Normal",
+  "spec1": 18,
+  "spec2": 47,
+  "spec3": 54
+}

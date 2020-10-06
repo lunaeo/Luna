@@ -1,0 +1,9 @@
+{
+  "id": 144,
+  "name": "Padu",
+  "graphic": 109,
+  "type": "Skills",
+  "vendor_id": 4,
+  "maxdam": 2,
+  "accuracy": 2
+}

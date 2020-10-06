@@ -1,0 +1,12 @@
+{
+  "id": 378,
+  "weight": 1,
+  "size": "2x2",
+  "name": "Chalybs",
+  "graphic": 372,
+  "type": "Shield",
+  "subtype": "None",
+  "special": "Normal",
+  "spec1": 7,
+  "unknown1": 100
+}

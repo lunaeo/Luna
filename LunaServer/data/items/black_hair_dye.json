@@ -1,0 +1,11 @@
+{
+  "id": 221,
+  "size": "1x1",
+  "name": "Black Hair Dye",
+  "graphic": 232,
+  "type": "HairDye",
+  "subtype": "None",
+  "special": "Normal",
+  "spec1": 9,
+  "unknown1": 100
+}

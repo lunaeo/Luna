@@ -1,0 +1,12 @@
+{
+  "id": 408,
+  "weight": 1,
+  "size": "2x2",
+  "name": "Bag",
+  "graphic": 402,
+  "type": "Shield",
+  "subtype": "None",
+  "special": "Normal",
+  "spec1": 11,
+  "unknown1": 100
+}

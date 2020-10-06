@@ -1,0 +1,11 @@
+{
+  "id": 214,
+  "size": "1x1",
+  "name": "Pink Hair Dye",
+  "graphic": 225,
+  "type": "HairDye",
+  "subtype": "None",
+  "special": "Normal",
+  "spec1": 2,
+  "unknown1": 100
+}

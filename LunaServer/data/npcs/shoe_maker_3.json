@@ -1,0 +1,9 @@
+{
+  "id": 38,
+  "name": "Shoe Maker",
+  "graphic": 24,
+  "type": "Shop",
+  "vendor_id": 16,
+  "maxdam": 2,
+  "accuracy": 2
+}

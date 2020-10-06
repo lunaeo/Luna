@@ -1,0 +1,10 @@
+{
+  "id": 101,
+  "name": "Snail",
+  "graphic": 77,
+  "type": "Passive",
+  "hp": 52,
+  "maxdam": 2,
+  "accuracy": 2,
+  "exp": 20
+}

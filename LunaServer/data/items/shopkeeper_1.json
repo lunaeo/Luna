@@ -1,0 +1,13 @@
+{
+  "id": 243,
+  "size": "1x1",
+  "name": "Shopkeeper #1",
+  "graphic": 62,
+  "type": "Teleport",
+  "subtype": "None",
+  "special": "Normal",
+  "spec1": 69,
+  "spec2": 4,
+  "spec3": 14,
+  "unknown1": 100
+}

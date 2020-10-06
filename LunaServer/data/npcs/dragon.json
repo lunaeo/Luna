@@ -1,0 +1,16 @@
+{
+  "id": 225,
+  "name": "Dragon",
+  "graphic": 149,
+  "type": "Aggressive",
+  "vendor_id": 1,
+  "hp": 11000,
+  "mindam": 12,
+  "maxdam": 50,
+  "accuracy": 80,
+  "evade": 24,
+  "armor": 33,
+  "exp": 1251,
+  "unknown1": 2,
+  "unknown2": 56
+}

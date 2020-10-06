@@ -1,0 +1,9 @@
+{
+  "id": 100,
+  "name": "Cyndi",
+  "graphic": 23,
+  "type": "Shop",
+  "vendor_id": 28,
+  "maxdam": 2,
+  "accuracy": 2
+}

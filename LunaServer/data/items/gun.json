@@ -1,0 +1,15 @@
+{
+  "id": 365,
+  "weight": 2,
+  "size": "1x2",
+  "name": "Gun",
+  "graphic": 363,
+  "type": "Weapon",
+  "subtype": "None",
+  "special": "Lore",
+  "mindam": 1,
+  "maxdam": 2,
+  "accuracy": 1,
+  "spec1": 58,
+  "unknown1": 100
+}

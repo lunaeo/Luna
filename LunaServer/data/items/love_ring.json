@@ -1,0 +1,11 @@
+{
+  "id": 374,
+  "weight": 1,
+  "size": "1x1",
+  "name": "Love Ring",
+  "graphic": 371,
+  "type": "Ring",
+  "subtype": "None",
+  "special": "Lore",
+  "unknown1": 100
+}

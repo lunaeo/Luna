@@ -1,0 +1,15 @@
+{
+  "id": 226,
+  "name": "Flyman",
+  "graphic": 150,
+  "type": "Passive",
+  "hp": 600,
+  "mindam": 4,
+  "maxdam": 14,
+  "accuracy": 15,
+  "evade": 4,
+  "armor": 5,
+  "exp": 117,
+  "unknown1": 1,
+  "unknown2": 4
+}

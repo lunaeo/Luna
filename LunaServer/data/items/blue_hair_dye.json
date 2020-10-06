@@ -1,0 +1,11 @@
+{
+  "id": 217,
+  "size": "1x1",
+  "name": "Blue Hair Dye",
+  "graphic": 228,
+  "type": "HairDye",
+  "subtype": "None",
+  "special": "Normal",
+  "spec1": 5,
+  "unknown1": 100
+}

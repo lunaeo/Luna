@@ -1,0 +1,15 @@
+{
+  "id": 344,
+  "weight": 3,
+  "size": "2x3",
+  "name": "Galoy",
+  "graphic": 342,
+  "type": "Armor",
+  "subtype": "None",
+  "special": "Normal",
+  "evade": 1,
+  "armor": 3,
+  "spec1": 31,
+  "spec2": 1,
+  "unknown1": 100
+}

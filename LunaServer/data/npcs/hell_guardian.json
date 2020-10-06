@@ -1,0 +1,14 @@
+{
+  "id": 129,
+  "name": "Hell Guardian",
+  "graphic": 51,
+  "type": "Aggressive",
+  "hp": 39000,
+  "mindam": 30,
+  "maxdam": 31,
+  "accuracy": 226,
+  "evade": 112,
+  "armor": 112,
+  "exp": 1500,
+  "unknown2": 154
+}

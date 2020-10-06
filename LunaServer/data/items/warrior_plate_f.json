@@ -1,0 +1,13 @@
+{
+  "id": 141,
+  "weight": 8,
+  "size": "2x3",
+  "name": "Warrior Plate",
+  "graphic": 153,
+  "type": "Armor",
+  "subtype": "None",
+  "special": "Normal",
+  "evade": 1,
+  "armor": 1,
+  "spec1": 20
+}

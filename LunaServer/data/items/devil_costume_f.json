@@ -1,0 +1,13 @@
+{
+  "id": 199,
+  "weight": 10,
+  "size": "2x3",
+  "name": "Devil Costume",
+  "graphic": 164,
+  "type": "Armor",
+  "subtype": "None",
+  "special": "Lore",
+  "evade": 1,
+  "armor": 1,
+  "spec1": 22
+}

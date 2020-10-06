@@ -1,0 +1,15 @@
+{
+  "id": 224,
+  "name": "Nutviper",
+  "graphic": 148,
+  "type": "Passive",
+  "hp": 390,
+  "mindam": 3,
+  "maxdam": 8,
+  "accuracy": 2,
+  "evade": 3,
+  "armor": 3,
+  "exp": 96,
+  "unknown1": 1,
+  "unknown2": 2
+}

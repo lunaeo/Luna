@@ -1,0 +1,14 @@
+{
+  "id": 220,
+  "name": "Rotveig",
+  "graphic": 144,
+  "type": "Aggressive",
+  "hp": 100,
+  "mindam": 2,
+  "maxdam": 12,
+  "accuracy": 12,
+  "evade": 1,
+  "armor": 1,
+  "exp": 68,
+  "unknown2": 1
+}

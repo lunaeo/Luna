@@ -1,0 +1,11 @@
+{
+  "id": 2,
+  "weight": 1,
+  "size": "1x1",
+  "name": "small Health Potion",
+  "graphic": 23,
+  "type": "Heal",
+  "subtype": "None",
+  "special": "Normal",
+  "hp": 20
+}

@@ -1,0 +1,15 @@
+{
+  "id": 9,
+  "name": "Reaper",
+  "graphic": 30,
+  "type": "Aggressive",
+  "vendor_id": 1,
+  "hp": 780,
+  "mindam": 5,
+  "maxdam": 8,
+  "accuracy": 8,
+  "evade": 3,
+  "armor": 3,
+  "exp": 225,
+  "unknown2": 2
+}

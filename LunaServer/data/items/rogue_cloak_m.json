@@ -1,0 +1,14 @@
+{
+  "id": 142,
+  "weight": 5,
+  "size": "2x3",
+  "name": "Rogue Cloak",
+  "graphic": 155,
+  "type": "Armor",
+  "subtype": "None",
+  "special": "Normal",
+  "evade": 1,
+  "armor": 1,
+  "spec1": 9,
+  "spec2": 1
+}

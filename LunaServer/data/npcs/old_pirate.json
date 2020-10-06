@@ -1,0 +1,9 @@
+{
+  "id": 176,
+  "name": "Old Pirate",
+  "graphic": 21,
+  "type": "Quest",
+  "vendor_id": 5,
+  "maxdam": 2,
+  "accuracy": 2
+}

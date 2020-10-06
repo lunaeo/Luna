@@ -1,0 +1,9 @@
+{
+  "id": 169,
+  "name": "Merriad",
+  "graphic": 53,
+  "type": "Quest",
+  "vendor_id": 3,
+  "maxdam": 2,
+  "accuracy": 2
+}

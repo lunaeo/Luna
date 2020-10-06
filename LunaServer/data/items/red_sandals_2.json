@@ -1,0 +1,11 @@
+{
+  "id": 109,
+  "weight": 1,
+  "size": "2x2",
+  "name": "Red Sandals",
+  "graphic": 117,
+  "type": "Boots",
+  "subtype": "None",
+  "special": "Normal",
+  "spec1": 30
+}

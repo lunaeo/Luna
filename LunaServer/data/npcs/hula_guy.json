@@ -1,0 +1,9 @@
+{
+  "id": 99,
+  "name": "Hula Guy",
+  "graphic": 76,
+  "type": "Shop",
+  "vendor_id": 27,
+  "maxdam": 2,
+  "accuracy": 2
+}

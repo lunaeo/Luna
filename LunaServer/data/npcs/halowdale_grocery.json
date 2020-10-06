@@ -1,0 +1,9 @@
+{
+  "id": 164,
+  "name": "Halowdale Grocery",
+  "graphic": 15,
+  "type": "Shop",
+  "vendor_id": 37,
+  "maxdam": 2,
+  "accuracy": 2
+}

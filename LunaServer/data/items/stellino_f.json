@@ -1,0 +1,13 @@
+{
+  "id": 48,
+  "weight": 4,
+  "size": "2x3",
+  "name": "Stellino",
+  "graphic": 64,
+  "type": "Armor",
+  "subtype": "None",
+  "special": "Normal",
+  "evade": 1,
+  "armor": 1,
+  "spec1": 10
+}

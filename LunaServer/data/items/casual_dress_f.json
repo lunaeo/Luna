@@ -1,0 +1,13 @@
+{
+  "id": 152,
+  "weight": 4,
+  "size": "2x3",
+  "name": "Casual Dress",
+  "graphic": 167,
+  "type": "Armor",
+  "subtype": "None",
+  "special": "Normal",
+  "evade": 1,
+  "armor": 1,
+  "spec1": 9
+}

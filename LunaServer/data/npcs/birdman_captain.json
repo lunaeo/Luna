@@ -1,0 +1,13 @@
+{
+  "id": 71,
+  "name": "Birdman Captain",
+  "graphic": 49,
+  "type": "Passive",
+  "hp": 166,
+  "mindam": 2,
+  "maxdam": 4,
+  "accuracy": 5,
+  "evade": 1,
+  "armor": 1,
+  "exp": 50
+}

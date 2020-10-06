@@ -1,0 +1,14 @@
+{
+  "id": 60,
+  "weight": 5,
+  "size": "2x3",
+  "name": "Dragon Armor",
+  "graphic": 77,
+  "type": "Armor",
+  "subtype": "None",
+  "special": "Unique",
+  "evade": 1,
+  "armor": 2,
+  "spec1": 12,
+  "spec2": 1
+}

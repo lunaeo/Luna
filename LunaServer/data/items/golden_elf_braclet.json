@@ -1,0 +1,13 @@
+{
+  "id": 40,
+  "weight": 1,
+  "size": "1x1",
+  "name": "Golden Elf Braclet",
+  "graphic": 56,
+  "type": "Armlet",
+  "subtype": "None",
+  "special": "Normal",
+  "hp": 10,
+  "evade": 1,
+  "armor": 1
+}

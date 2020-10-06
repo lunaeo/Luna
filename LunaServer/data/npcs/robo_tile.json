@@ -1,0 +1,8 @@
+{
+  "id": 148,
+  "name": "Robo Tile",
+  "graphic": 113,
+  "type": "NPC",
+  "maxdam": 2,
+  "accuracy": 2
+}

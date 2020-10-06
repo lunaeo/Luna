@@ -1,0 +1,11 @@
+{
+  "id": 191,
+  "weight": 1,
+  "size": "2x2",
+  "name": "Green Hood",
+  "graphic": 204,
+  "type": "Hat",
+  "subtype": "None",
+  "special": "Normal",
+  "spec1": 19
+}

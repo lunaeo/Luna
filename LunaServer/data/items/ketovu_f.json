@@ -1,0 +1,15 @@
+{
+  "id": 429,
+  "weight": 3,
+  "size": "2x3",
+  "name": "Ketovu",
+  "graphic": 421,
+  "type": "Armor",
+  "subtype": "None",
+  "special": "Normal",
+  "hp": 10,
+  "evade": 2,
+  "armor": 4,
+  "spec1": 45,
+  "unknown1": 100
+}

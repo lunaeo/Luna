@@ -1,0 +1,11 @@
+{
+  "id": 175,
+  "weight": 2,
+  "size": "2x2",
+  "name": "Purple Magical Hat",
+  "graphic": 187,
+  "type": "Hat",
+  "subtype": "None",
+  "special": "Normal",
+  "spec1": 3
+}

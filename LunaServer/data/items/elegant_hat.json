@@ -1,0 +1,12 @@
+{
+  "id": 359,
+  "weight": 1,
+  "size": "2x2",
+  "name": "Elegant Hat",
+  "graphic": 357,
+  "type": "Hat",
+  "subtype": "None",
+  "special": "Normal",
+  "spec1": 39,
+  "unknown1": 100
+}

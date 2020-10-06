@@ -1,0 +1,10 @@
+{
+  "id": 46,
+  "size": "1x1",
+  "name": "Herbs",
+  "graphic": 31,
+  "type": "Heal",
+  "subtype": "None",
+  "special": "Normal",
+  "hp": 6
+}

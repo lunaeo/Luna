@@ -1,0 +1,16 @@
+{
+  "id": 203,
+  "name": "Earth Rock +60",
+  "graphic": 72,
+  "type": "Passive",
+  "hp": 650,
+  "mindam": 8,
+  "maxdam": 11,
+  "accuracy": 11,
+  "evade": 4,
+  "armor": 4,
+  "elementweak": 5,
+  "elemweakpow": 60,
+  "exp": 159,
+  "unknown2": 4
+}

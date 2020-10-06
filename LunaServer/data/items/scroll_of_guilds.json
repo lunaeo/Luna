@@ -1,0 +1,14 @@
+{
+  "id": 331,
+  "weight": 1,
+  "size": "1x1",
+  "name": "Scroll of Guilds",
+  "graphic": 62,
+  "type": "Teleport",
+  "subtype": "None",
+  "special": "Normal",
+  "spec1": 108,
+  "spec2": 5,
+  "spec3": 9,
+  "unknown1": 100
+}

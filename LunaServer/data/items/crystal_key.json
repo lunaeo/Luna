@@ -1,0 +1,12 @@
+{
+  "id": 241,
+  "weight": 1,
+  "size": "1x1",
+  "name": "Crystal Key",
+  "graphic": 249,
+  "type": "Key",
+  "subtype": "None",
+  "special": "Normal",
+  "spec1": 3,
+  "unknown1": 100
+}

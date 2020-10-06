@@ -1,0 +1,16 @@
+{
+  "id": 204,
+  "name": "Shark",
+  "graphic": 129,
+  "type": "Aggressive",
+  "hp": 520,
+  "mindam": 9,
+  "maxdam": 12,
+  "accuracy": 12,
+  "evade": 5,
+  "armor": 5,
+  "elementweak": 4,
+  "elemweakpow": 12,
+  "exp": 40,
+  "unknown2": 5
+}

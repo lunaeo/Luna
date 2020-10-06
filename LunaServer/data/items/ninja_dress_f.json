@@ -1,0 +1,13 @@
+{
+  "id": 140,
+  "weight": 5,
+  "size": "2x3",
+  "name": "Ninja Dress",
+  "graphic": 152,
+  "type": "Armor",
+  "subtype": "None",
+  "special": "Normal",
+  "evade": 1,
+  "armor": 1,
+  "spec1": 17
+}

@@ -1,0 +1,15 @@
+{
+  "id": 435,
+  "weight": 3,
+  "size": "2x3",
+  "name": "Merhawk",
+  "graphic": 426,
+  "type": "Weapon",
+  "subtype": "None",
+  "special": "Normal",
+  "mindam": 2,
+  "maxdam": 2,
+  "accuracy": 2,
+  "spec1": 68,
+  "unknown1": 100
+}

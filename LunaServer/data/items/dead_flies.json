@@ -1,0 +1,11 @@
+{
+  "id": 471,
+  "weight": 1,
+  "size": "1x1",
+  "name": "Dead Flies",
+  "graphic": 462,
+  "type": "Static",
+  "subtype": "None",
+  "special": "Normal",
+  "unknown1": 100
+}

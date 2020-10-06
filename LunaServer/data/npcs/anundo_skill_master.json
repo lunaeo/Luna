@@ -1,0 +1,9 @@
+{
+  "id": 124,
+  "name": "Anundo Skill Master",
+  "graphic": 87,
+  "type": "Skills",
+  "vendor_id": 2,
+  "maxdam": 2,
+  "accuracy": 2
+}

@@ -1,0 +1,9 @@
+{
+  "id": 189,
+  "name": "Guard",
+  "graphic": 37,
+  "type": "Quest",
+  "vendor_id": 10,
+  "maxdam": 2,
+  "accuracy": 2
+}

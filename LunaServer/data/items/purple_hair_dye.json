@@ -1,0 +1,11 @@
+{
+  "id": 218,
+  "size": "1x1",
+  "name": "Purple Hair Dye",
+  "graphic": 229,
+  "type": "HairDye",
+  "subtype": "None",
+  "special": "Normal",
+  "spec1": 6,
+  "unknown1": 100
+}

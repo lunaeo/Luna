@@ -1,0 +1,15 @@
+{
+  "id": 22,
+  "shout": "dark beam",
+  "name": "Dark Beam",
+  "icon": 1,
+  "graphic": 24,
+  "cast_time": 1,
+  "type": "Heal",
+  "target_restrict": "Friendly",
+  "target": "Normal",
+  "hp": 1,
+  "unknown1": 1,
+  "unknown3": 1,
+  "unknown4": 1
+}

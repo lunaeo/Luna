@@ -1,0 +1,15 @@
+{
+  "id": 430,
+  "weight": 3,
+  "size": "2x3",
+  "name": "Baru",
+  "graphic": 420,
+  "type": "Armor",
+  "subtype": "None",
+  "special": "Normal",
+  "evade": 1,
+  "armor": 5,
+  "spec1": 44,
+  "spec2": 1,
+  "unknown1": 100
+}

@@ -1,0 +1,12 @@
+{
+  "id": 294,
+  "weight": 1,
+  "size": "1x1",
+  "name": "Potion of Sparkles",
+  "graphic": 7,
+  "type": "EffectPotion",
+  "subtype": "None",
+  "special": "Normal",
+  "spec1": 5,
+  "unknown1": 100
+}

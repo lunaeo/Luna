@@ -1,0 +1,9 @@
+{
+  "id": 58,
+  "name": "Elite Captain",
+  "graphic": 37,
+  "type": "Quest",
+  "vendor_id": 11,
+  "maxdam": 2,
+  "accuracy": 2
+}

@@ -1,0 +1,18 @@
+{
+  "id": 455,
+  "weight": 3,
+  "size": "2x3",
+  "name": "Bazar Staff",
+  "graphic": 446,
+  "type": "Weapon",
+  "subtype": "None",
+  "special": "Rare",
+  "hp": 10,
+  "tp": 150,
+  "mindam": 2,
+  "maxdam": 2,
+  "int": 3,
+  "wis": 6,
+  "spec1": 71,
+  "unknown1": 100
+}

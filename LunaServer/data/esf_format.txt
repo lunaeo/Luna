@@ -1,0 +1,32 @@
+string name
+string shout
+int2 icon
+int2 graphic
+int2 tp
+int2 sp
+int1 cast_time
+int1 -
+int1 unknown1
+int3 type { Heal Damage Bard }
+int1 element
+int2 elempow
+int1 target_restrict { NPC Friendly Opponent }
+int1 target { Normal Self ? Group }
+int1 -
+int1 -
+int2 unknown2
+int2 mindam
+int2 maxdam
+int2 accuracy
+int2 -
+int2 -
+int1 -
+int2 hp
+int2 unknown3
+int1 unknown4
+int2 -
+int2 -
+int2 -
+int2 -
+int2 -
+int2 -

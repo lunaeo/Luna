@@ -1,0 +1,21 @@
+string name
+int2 graphic
+int1 -
+int2 boss
+int2 child
+int2 type { NPC Passive Aggressive ? ? ? Shop Inn ? Bank Barber Guild Priest Law Skills Quest }
+int2 vendor_id
+int3 hp
+int2 -
+int2 mindam
+int2 maxdam
+int2 accuracy
+int2 evade
+int2 armor
+int1 unknown1
+int2 -
+int2 -
+int2 elementweak
+int2 elemweakpow
+int1 unknown2
+int3 exp

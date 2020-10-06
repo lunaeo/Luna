@@ -1,0 +1,10 @@
+{
+  "id": 59,
+  "name": "Blobsie",
+  "graphic": 38,
+  "type": "Passive",
+  "hp": 31,
+  "maxdam": 2,
+  "accuracy": 2,
+  "exp": 15
+}

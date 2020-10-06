@@ -1,0 +1,10 @@
+{
+  "id": 19,
+  "name": "Skeleton Warrior",
+  "graphic": 18,
+  "type": "Passive",
+  "hp": 31,
+  "maxdam": 2,
+  "accuracy": 2,
+  "exp": 12
+}

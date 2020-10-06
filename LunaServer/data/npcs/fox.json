@@ -1,0 +1,10 @@
+{
+  "id": 5,
+  "name": "Fox",
+  "graphic": 5,
+  "type": "Passive",
+  "hp": 20,
+  "maxdam": 2,
+  "accuracy": 2,
+  "exp": 6
+}

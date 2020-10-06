@@ -1,0 +1,14 @@
+{
+  "id": 134,
+  "name": "Cursed Mask",
+  "graphic": 99,
+  "type": "Aggressive",
+  "hp": 650,
+  "mindam": 4,
+  "maxdam": 7,
+  "accuracy": 7,
+  "evade": 2,
+  "armor": 2,
+  "exp": 122,
+  "unknown2": 2
+}

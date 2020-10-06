@@ -1,0 +1,14 @@
+{
+  "id": 206,
+  "name": "Christmas Doll",
+  "graphic": 131,
+  "type": "Aggressive",
+  "hp": 91,
+  "mindam": 4,
+  "maxdam": 7,
+  "accuracy": 7,
+  "evade": 2,
+  "armor": 2,
+  "exp": 78,
+  "unknown2": 2
+}

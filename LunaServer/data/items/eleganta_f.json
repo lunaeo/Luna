@@ -1,0 +1,14 @@
+{
+  "id": 368,
+  "weight": 3,
+  "size": "2x3",
+  "name": "Eleganta",
+  "graphic": 365,
+  "type": "Armor",
+  "subtype": "None",
+  "special": "Normal",
+  "evade": 2,
+  "armor": 3,
+  "spec1": 37,
+  "unknown1": 100
+}

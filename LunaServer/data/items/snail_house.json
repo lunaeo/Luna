@@ -1,0 +1,11 @@
+{
+  "id": 356,
+  "weight": 1,
+  "size": "1x1",
+  "name": "Snail House",
+  "graphic": 354,
+  "type": "Static",
+  "subtype": "None",
+  "special": "Normal",
+  "unknown1": 100
+}

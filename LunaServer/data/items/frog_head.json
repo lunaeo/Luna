@@ -1,0 +1,15 @@
+{
+  "id": 310,
+  "weight": 1,
+  "size": "2x2",
+  "name": "Frog Head",
+  "graphic": 309,
+  "type": "Hat",
+  "subtype": "None",
+  "special": "Cursed",
+  "mindam": 1,
+  "maxdam": 1,
+  "accuracy": 5,
+  "spec1": 32,
+  "unknown1": 100
+}

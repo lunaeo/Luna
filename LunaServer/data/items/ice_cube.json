@@ -1,0 +1,11 @@
+{
+  "id": 338,
+  "weight": 1,
+  "size": "1x1",
+  "name": "Ice Cube",
+  "graphic": 336,
+  "type": "Static",
+  "subtype": "None",
+  "special": "Normal",
+  "unknown1": 100
+}

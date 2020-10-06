@@ -1,0 +1,12 @@
+{
+  "id": 276,
+  "weight": 2,
+  "size": "2x2",
+  "name": "Ancient Boots",
+  "graphic": 281,
+  "type": "Boots",
+  "subtype": "None",
+  "special": "Unique",
+  "spec1": 49,
+  "unknown1": 100
+}

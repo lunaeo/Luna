@@ -1,0 +1,11 @@
+{
+  "id": 56,
+  "weight": 2,
+  "size": "2x2",
+  "name": "Wooden Protector",
+  "graphic": 74,
+  "type": "Shield",
+  "subtype": "None",
+  "special": "Normal",
+  "spec1": 1
+}

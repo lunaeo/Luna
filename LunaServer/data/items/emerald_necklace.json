@@ -1,0 +1,12 @@
+{
+  "id": 50,
+  "weight": 1,
+  "size": "2x1",
+  "name": "Emerald Necklace",
+  "graphic": 67,
+  "type": "Necklace",
+  "subtype": "None",
+  "special": "Unique",
+  "hp": 10,
+  "str": 1
+}

@@ -1,0 +1,9 @@
+{
+  "id": 195,
+  "name": "Serf",
+  "graphic": 118,
+  "type": "Quest",
+  "vendor_id": 15,
+  "maxdam": 2,
+  "accuracy": 2
+}

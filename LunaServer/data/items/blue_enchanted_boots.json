@@ -1,0 +1,11 @@
+{
+  "id": 126,
+  "weight": 1,
+  "size": "2x2",
+  "name": "Blue Enchanted Boots",
+  "graphic": 134,
+  "type": "Boots",
+  "subtype": "None",
+  "special": "Rare",
+  "spec1": 46
+}

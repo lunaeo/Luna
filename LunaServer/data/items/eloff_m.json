@@ -1,0 +1,15 @@
+{
+  "id": 280,
+  "weight": 4,
+  "size": "2x3",
+  "name": "Eloff",
+  "graphic": 284,
+  "type": "Armor",
+  "subtype": "None",
+  "special": "Normal",
+  "evade": 2,
+  "armor": 2,
+  "spec1": 27,
+  "spec2": 1,
+  "unknown1": 100
+}

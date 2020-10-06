@@ -1,0 +1,10 @@
+{
+  "id": 3,
+  "name": "Blob",
+  "graphic": 3,
+  "type": "Passive",
+  "hp": 10,
+  "maxdam": 2,
+  "accuracy": 2,
+  "exp": 7
+}

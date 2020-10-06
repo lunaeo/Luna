@@ -1,0 +1,10 @@
+{
+  "id": 75,
+  "weight": 1,
+  "size": "1x1",
+  "name": "Element Crystal",
+  "graphic": 83,
+  "type": "Accessory",
+  "subtype": "None",
+  "special": "Unique"
+}

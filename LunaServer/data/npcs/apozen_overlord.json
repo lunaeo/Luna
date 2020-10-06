@@ -1,0 +1,16 @@
+{
+  "id": 257,
+  "name": "Apozen Overlord",
+  "graphic": 107,
+  "boss": 1,
+  "type": "Passive",
+  "vendor_id": 1,
+  "hp": 34000,
+  "mindam": 2,
+  "maxdam": 60,
+  "accuracy": 120,
+  "evade": 80,
+  "armor": 80,
+  "exp": 6666,
+  "unknown2": 161
+}

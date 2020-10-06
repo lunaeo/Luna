@@ -1,0 +1,14 @@
+{
+  "id": 32,
+  "weight": 2,
+  "size": "2x3",
+  "name": "Battle Axe",
+  "graphic": 49,
+  "type": "Weapon",
+  "subtype": "None",
+  "special": "Normal",
+  "mindam": 1,
+  "maxdam": 2,
+  "accuracy": 2,
+  "spec1": 18
+}

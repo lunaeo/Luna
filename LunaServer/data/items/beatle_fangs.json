@@ -1,0 +1,11 @@
+{
+  "id": 264,
+  "weight": 1,
+  "size": "1x1",
+  "name": "Beatle Fangs",
+  "graphic": 269,
+  "type": "Static",
+  "subtype": "None",
+  "special": "Normal",
+  "unknown1": 100
+}

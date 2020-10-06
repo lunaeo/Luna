@@ -1,0 +1,14 @@
+{
+  "id": 133,
+  "weight": 4,
+  "size": "2x3",
+  "name": "Tuxido",
+  "graphic": 146,
+  "type": "Armor",
+  "subtype": "None",
+  "special": "Normal",
+  "evade": 1,
+  "armor": 1,
+  "spec1": 21,
+  "spec2": 1
+}

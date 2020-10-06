@@ -1,0 +1,12 @@
+{
+  "id": 386,
+  "weight": 1,
+  "size": "2x2",
+  "name": "Horned Gob Helm",
+  "graphic": 380,
+  "type": "Hat",
+  "subtype": "None",
+  "special": "Cursed",
+  "spec1": 41,
+  "unknown1": 100
+}

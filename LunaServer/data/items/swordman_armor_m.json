@@ -1,0 +1,14 @@
+{
+  "id": 135,
+  "weight": 6,
+  "size": "2x3",
+  "name": "Swordman Armor",
+  "graphic": 148,
+  "type": "Armor",
+  "subtype": "None",
+  "special": "Normal",
+  "evade": 1,
+  "armor": 1,
+  "spec1": 19,
+  "spec2": 1
+}

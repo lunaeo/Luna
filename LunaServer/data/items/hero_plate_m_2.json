@@ -1,0 +1,20 @@
+{
+  "id": 387,
+  "weight": 7,
+  "size": "2x3",
+  "name": "Hero Plate",
+  "graphic": 381,
+  "type": "Armor",
+  "subtype": "None",
+  "special": "Unique",
+  "hp": 25,
+  "mindam": 1,
+  "maxdam": 1,
+  "accuracy": 1,
+  "evade": 2,
+  "armor": 4,
+  "str": 1,
+  "spec1": 38,
+  "spec2": 1,
+  "unknown1": 100
+}

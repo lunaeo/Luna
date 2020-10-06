@@ -1,0 +1,14 @@
+{
+  "id": 201,
+  "name": "Rock",
+  "graphic": 72,
+  "type": "Passive",
+  "hp": 650,
+  "mindam": 8,
+  "maxdam": 11,
+  "accuracy": 11,
+  "evade": 4,
+  "armor": 4,
+  "exp": 120,
+  "unknown2": 4
+}

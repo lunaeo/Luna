@@ -1,0 +1,14 @@
+{
+  "id": 214,
+  "name": "Flombie",
+  "graphic": 138,
+  "type": "Passive",
+  "hp": 123,
+  "mindam": 2,
+  "maxdam": 4,
+  "accuracy": 2,
+  "evade": 2,
+  "armor": 2,
+  "exp": 50,
+  "unknown2": 2
+}

@@ -1,0 +1,13 @@
+{
+  "id": 129,
+  "weight": 4,
+  "size": "2x3",
+  "name": "Gothic Dress",
+  "graphic": 141,
+  "type": "Armor",
+  "subtype": "None",
+  "special": "Normal",
+  "evade": 1,
+  "armor": 1,
+  "spec1": 5
+}

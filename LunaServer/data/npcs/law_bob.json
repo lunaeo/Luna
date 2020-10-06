@@ -1,0 +1,8 @@
+{
+  "id": 115,
+  "name": "Law Bob",
+  "graphic": 28,
+  "type": "Law",
+  "maxdam": 2,
+  "accuracy": 2
+}

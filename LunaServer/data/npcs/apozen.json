@@ -1,0 +1,15 @@
+{
+  "id": 142,
+  "name": "Apozen",
+  "graphic": 107,
+  "type": "Aggressive",
+  "vendor_id": 1,
+  "hp": 10400,
+  "mindam": 2,
+  "maxdam": 4,
+  "accuracy": 63,
+  "evade": 30,
+  "armor": 30,
+  "exp": 750,
+  "unknown2": 43
+}

@@ -1,0 +1,15 @@
+{
+  "id": 407,
+  "weight": 6,
+  "size": "2x3",
+  "name": "Plaot Robes",
+  "graphic": 401,
+  "type": "Armor",
+  "subtype": "None",
+  "special": "Rare",
+  "evade": 1,
+  "armor": 1,
+  "spec1": 40,
+  "spec2": 1,
+  "unknown1": 100
+}

@@ -1,0 +1,15 @@
+{
+  "id": 317,
+  "weight": 3,
+  "size": "2x3",
+  "name": "Reaper",
+  "graphic": 316,
+  "type": "Weapon",
+  "subtype": "None",
+  "special": "Normal",
+  "mindam": 1,
+  "maxdam": 3,
+  "accuracy": 2,
+  "spec1": 44,
+  "unknown1": 100
+}

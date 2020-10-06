@@ -1,0 +1,14 @@
+{
+  "id": 415,
+  "weight": 1,
+  "size": "2x3",
+  "name": "Tebaru",
+  "graphic": 408,
+  "type": "Armor",
+  "subtype": "None",
+  "special": "Normal",
+  "evade": 1,
+  "armor": 1,
+  "spec1": 43,
+  "unknown1": 100
+}

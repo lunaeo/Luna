@@ -1,0 +1,14 @@
+{
+  "id": 22,
+  "weight": 3,
+  "size": "1x4",
+  "name": "Ancient Sword",
+  "graphic": 39,
+  "type": "Weapon",
+  "subtype": "None",
+  "special": "Unique",
+  "mindam": 1,
+  "maxdam": 2,
+  "accuracy": 2,
+  "spec1": 19
+}

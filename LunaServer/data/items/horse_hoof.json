@@ -1,0 +1,11 @@
+{
+  "id": 300,
+  "weight": 1,
+  "size": "1x1",
+  "name": "Horse Hoof",
+  "graphic": 299,
+  "type": "Static",
+  "subtype": "None",
+  "special": "Normal",
+  "unknown1": 100
+}

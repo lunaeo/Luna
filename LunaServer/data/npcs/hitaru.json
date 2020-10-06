@@ -1,0 +1,9 @@
+{
+  "id": 52,
+  "name": "Hitaru",
+  "graphic": 9,
+  "type": "Shop",
+  "vendor_id": 25,
+  "maxdam": 2,
+  "accuracy": 2
+}

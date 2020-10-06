@@ -1,0 +1,12 @@
+{
+  "id": 449,
+  "weight": 1,
+  "size": "2x3",
+  "name": "Cooks Uniform",
+  "graphic": 440,
+  "type": "Armor",
+  "subtype": "None",
+  "special": "Normal",
+  "spec1": 46,
+  "unknown1": 100
+}

@@ -1,0 +1,9 @@
+{
+  "id": 193,
+  "name": "Wolf Leader",
+  "graphic": 52,
+  "type": "Quest",
+  "vendor_id": 14,
+  "maxdam": 2,
+  "accuracy": 2
+}

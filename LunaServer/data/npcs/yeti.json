@@ -1,0 +1,14 @@
+{
+  "id": 208,
+  "name": "Yeti",
+  "graphic": 133,
+  "type": "Passive",
+  "vendor_id": 1,
+  "hp": 300,
+  "mindam": 1,
+  "maxdam": 1,
+  "accuracy": 2,
+  "exp": 80,
+  "unknown1": 1,
+  "unknown2": 1
+}

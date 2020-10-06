@@ -1,0 +1,15 @@
+{
+  "id": 206,
+  "weight": 2,
+  "size": "1x3",
+  "name": "Forrest Staff",
+  "graphic": 214,
+  "type": "Weapon",
+  "subtype": "None",
+  "special": "Normal",
+  "mindam": 1,
+  "maxdam": 2,
+  "accuracy": 2,
+  "spec1": 23,
+  "unknown1": 100
+}

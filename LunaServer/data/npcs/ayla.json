@@ -1,0 +1,9 @@
+{
+  "id": 168,
+  "name": "Ayla",
+  "graphic": 23,
+  "type": "Quest",
+  "vendor_id": 2,
+  "maxdam": 2,
+  "accuracy": 2
+}

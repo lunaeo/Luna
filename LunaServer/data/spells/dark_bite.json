@@ -1,0 +1,14 @@
+{
+  "id": 29,
+  "shout": "darness come to me",
+  "name": "Dark Bite",
+  "icon": 10,
+  "graphic": 32,
+  "cast_time": 1,
+  "type": "Damage",
+  "target_restrict": "NPC",
+  "target": "Normal",
+  "mindam": 2,
+  "maxdam": 2,
+  "unknown2": 100
+}

@@ -1,0 +1,12 @@
+{
+  "id": 385,
+  "weight": 1,
+  "size": "2x2",
+  "name": "Gob Helm",
+  "graphic": 379,
+  "type": "Hat",
+  "subtype": "None",
+  "special": "Cursed",
+  "spec1": 40,
+  "unknown1": 100
+}

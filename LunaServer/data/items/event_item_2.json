@@ -1,0 +1,10 @@
+{
+  "id": 160,
+  "weight": 5,
+  "size": "1x1",
+  "name": "Event Item",
+  "graphic": 174,
+  "type": "Static",
+  "subtype": "None",
+  "special": "Rare"
+}

@@ -1,0 +1,12 @@
+{
+  "id": 293,
+  "weight": 1,
+  "size": "1x1",
+  "name": "Potion of Celebrate",
+  "graphic": 12,
+  "type": "EffectPotion",
+  "subtype": "None",
+  "special": "Normal",
+  "spec1": 4,
+  "unknown1": 100
+}

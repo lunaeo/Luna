@@ -1,0 +1,12 @@
+{
+  "id": 39,
+  "weight": 1,
+  "size": "1x1",
+  "name": "Silver Elf Braclet",
+  "graphic": 57,
+  "type": "Armlet",
+  "subtype": "None",
+  "special": "Normal",
+  "hp": 5,
+  "evade": 1
+}

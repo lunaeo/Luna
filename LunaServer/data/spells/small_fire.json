@@ -1,0 +1,15 @@
+{
+  "id": 4,
+  "shout": "small fire",
+  "name": "Small Fire",
+  "icon": 4,
+  "graphic": 1,
+  "tp": 1,
+  "sp": 2,
+  "cast_time": 2,
+  "type": "Damage",
+  "target_restrict": "Opponent",
+  "target": "Normal",
+  "mindam": 1,
+  "maxdam": 5
+}

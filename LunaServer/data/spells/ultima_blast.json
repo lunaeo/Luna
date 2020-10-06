@@ -1,0 +1,15 @@
+{
+  "id": 9,
+  "shout": "ultima blast",
+  "name": "Ultima Blast",
+  "icon": 11,
+  "graphic": 13,
+  "tp": 2,
+  "sp": 20,
+  "cast_time": 1,
+  "type": "Damage",
+  "target_restrict": "Opponent",
+  "target": "Normal",
+  "mindam": 10,
+  "maxdam": 30
+}

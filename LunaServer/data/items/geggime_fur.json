@@ -1,0 +1,11 @@
+{
+  "id": 354,
+  "weight": 1,
+  "size": "1x1",
+  "name": "Geggime Fur",
+  "graphic": 352,
+  "type": "Static",
+  "subtype": "None",
+  "special": "Normal",
+  "unknown1": 100
+}

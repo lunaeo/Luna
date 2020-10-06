@@ -1,0 +1,15 @@
+{
+  "id": 238,
+  "weight": 2,
+  "size": "1x4",
+  "name": "Light Katana",
+  "graphic": 246,
+  "type": "Weapon",
+  "subtype": "None",
+  "special": "Normal",
+  "mindam": 1,
+  "maxdam": 3,
+  "accuracy": 1,
+  "spec1": 27,
+  "unknown1": 100
+}

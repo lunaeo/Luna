@@ -1,0 +1,10 @@
+{
+  "id": 70,
+  "size": "1x1",
+  "name": "Scroll Of Nothing",
+  "graphic": 62,
+  "type": "Static",
+  "subtype": "None",
+  "special": "Rare",
+  "spec1": 50
+}

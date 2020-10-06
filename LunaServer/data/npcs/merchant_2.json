@@ -1,0 +1,9 @@
+{
+  "id": 211,
+  "name": "Merchant",
+  "graphic": 84,
+  "type": "Shop",
+  "vendor_id": 39,
+  "maxdam": 2,
+  "accuracy": 2
+}

@@ -1,0 +1,9 @@
+{
+  "id": 109,
+  "name": "Ariolus",
+  "graphic": 33,
+  "type": "Shop",
+  "vendor_id": 32,
+  "maxdam": 2,
+  "accuracy": 2
+}

@@ -1,0 +1,18 @@
+{
+  "id": 422,
+  "weight": 3,
+  "size": "2x3",
+  "name": "Dark Endur",
+  "graphic": 413,
+  "type": "Armor",
+  "subtype": "None",
+  "special": "Unique",
+  "tp": 10,
+  "evade": 1,
+  "armor": 1,
+  "int": 2,
+  "wis": 2,
+  "spec1": 43,
+  "spec2": 1,
+  "unknown1": 100
+}

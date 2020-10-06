@@ -1,0 +1,14 @@
+{
+  "id": 431,
+  "weight": 3,
+  "size": "2x3",
+  "name": "Baruta",
+  "graphic": 422,
+  "type": "Armor",
+  "subtype": "None",
+  "special": "Normal",
+  "evade": 1,
+  "armor": 5,
+  "spec1": 44,
+  "unknown1": 100
+}
