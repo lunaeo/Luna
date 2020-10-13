@@ -33,6 +33,11 @@ namespace LunaServer
         public new List<TcpSession> Sessions { get; }
 
         /// <summary>
+        /// The addon protocol version this version of the server is compatible with.
+        /// </summary>
+        public int AddonProtocolVersion => 1;
+
+        /// <summary>
         /// An enumerable collection of game sessions whose state is <see cref="ClientState.Playing"/>.
         /// </summary>
         public IEnumerable<GameSession> PlayingSessions =>

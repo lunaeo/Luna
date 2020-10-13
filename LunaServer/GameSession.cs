@@ -1,15 +1,17 @@
 ﻿using System;
 using System.Linq;
+using System.Diagnostics;
 using NetCoreServer;
 
 namespace LunaServer
 {
-    using System.Diagnostics;
     using EndlessOnline;
     using EndlessOnline.Communication;
     using EndlessOnline.Data;
     using EndlessOnline.Replies;
+    using Addons;
     using Utilities;
+    using System.Threading;
 
     public class GameSession : TcpSession
     {
@@ -17,6 +19,7 @@ namespace LunaServer
         public PacketAction PacketActions { get; }
         public ClientState State { get; private set; }
         public PacketProcessor Processor { get; private set; }
+        public AddonConnection AddonConnection { get; internal set; }
         public Character Character { get; private set; }
         public ushort PlayerId { get; internal set; }
         public uint HardDriveId { get; internal set; }
@@ -25,8 +28,23 @@ namespace LunaServer
         public GameSession(TcpServer server) : base(server)
         {
             this.GameServer = (GameServer)server;
+            this.AddonConnection = new AddonConnection(this);
             this.Processor = new ServerPacketProcessor();
             this.SetState(ClientState.Uninitialized);
+
+            this.AddonConnection.OnMessage += (s, e) =>
+            {
+                this.GameServer.Console.Debug("{0} sent addon message: {1}", this.Id.ToString(), "\n" + e.ToString());
+
+                switch (e.Type)
+                {
+                    case "init":
+                        var client_version = e.GetInt(0);
+
+                        this.AddonConnection.Send(new AddonMessage("init", this.GameServer.AddonProtocolVersion));
+                        break;
+                }
+            };
         }
 
         internal void CreateCharacter()
