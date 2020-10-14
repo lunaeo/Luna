@@ -13,6 +13,11 @@
         public int Port { get; set; }
 
         /// <summary>
+        /// The port the addon server should listen on.
+        /// </summary>
+        public int AddonServerPort { get; set; }
+
+        /// <summary>
         /// The maximum amount of connections that can be established per IP.
         /// </summary>
         public int MaxConnectionsPerIP { get; set; } = 5;

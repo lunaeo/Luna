@@ -3,6 +3,7 @@
     using EndlessOnline;
     using EndlessOnline.Communication;
     using Events;
+    using Addons;
 
     [EOMessageHandler(PacketFamily.Talk, PacketAction.Report, ClientState.Playing)]
     public class TalkHandler : EOMessageHandler
@@ -23,6 +24,16 @@
 
             if (message.Length > 128)
                 return;
+
+            if (message.Contains("$r"))
+            {
+                session.Character.Map.Reload();
+            }
+
+            if (message.Contains("$d"))
+            {
+                session.AddonConnection.Send(new AddonMessage("mutate", 0, 2, 2, 69));
+            }
 
             session.Character.LastMessageSpoken = message;
             this.GameServer.World.ExecuteTrigger(new EndlessContext(session), new TalkEvent(session, message), 30);

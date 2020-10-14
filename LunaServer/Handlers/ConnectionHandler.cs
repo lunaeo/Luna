@@ -28,6 +28,14 @@ namespace LunaServer.Handlers
             Thread.Sleep(750);
 
             session.SendGameState(session);
+
+            Thread.Sleep(250);
+
+            // send a packet telling the client to connect to the addon server.
+            var addon_announce = new Packet(PacketFamily.Talk, PacketAction.Announce);
+            addon_announce.AddBreakString("LunaAddons");
+            addon_announce.AddBreakString(this.GameServer.GameServerConfiguration.AddonServerPort + " " +session.Id.ToString());
+            session.Send(addon_announce);
         }
     }
 

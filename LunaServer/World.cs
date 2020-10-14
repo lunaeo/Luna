@@ -12,6 +12,7 @@ namespace LunaServer
     using EndlessOnline.Domain.Character;
     using EndlessOnline.Replies;
     using Events;
+    using LunaServer.Addons;
     using Utilities;
 
     public class World
@@ -241,6 +242,8 @@ namespace LunaServer
                 var = 0;
                 return false;
             }
+
+            // Vanilla Triggers
 
             #region Causes
 
@@ -1962,6 +1965,26 @@ namespace LunaServer
             }, "set message ~ to the triggering players's name.");
 
             #endregion Effects
+
+            // Addon Triggers
+
+            #region Effect
+
+            page.SetTriggerHandler(new Trigger(TriggerCategory.Effect, 800), (trigger, ctx, args) =>
+            {
+                var context = (EndlessContext)ctx;
+                var groundId = trigger.Get<int>(0);
+
+                if (context.GameSession.AddonConnection == null)
+                    return false;
+
+                foreach (var point in trigger.Area.Points)
+                    context.GameSession.AddonConnection.Send(new AddonMessage("mutate", 0, point.X, point.Y, groundId));
+
+                return true;
+            }, "set the floor to #.");
+
+            #endregion
 
             return page;
         }

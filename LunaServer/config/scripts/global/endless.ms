@@ -39,3 +39,9 @@
     (5:406) set message ~name to the triggering player's name.
     (5:405) set message ~msg to what the triggering player last said.
     (5:53) emit message {:from ~name ~msg} to every player who can see the triggering player.
+
+
+*/ Remove This */
+(0:1) Whenever someone moves,
+  (3:5) where the triggering player is at, not moving,
+    (5:800) set the floor to 69.

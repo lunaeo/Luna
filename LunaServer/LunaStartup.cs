@@ -4,6 +4,7 @@ using System.IO;
 using System.Net;
 using System.Reflection;
 using System.Threading.Tasks;
+using LunaServer.Addons;
 using Newtonsoft.Json;
 
 namespace LunaServer
@@ -43,11 +44,16 @@ namespace LunaServer
 
             var server_config = JsonConvert.DeserializeObject<GameServerConfiguration>(File.ReadAllText(Path.Combine("config", "server.json")));
             var console_config = JsonConvert.DeserializeObject<ConsoleConfiguration>(File.ReadAllText(Path.Combine("config", "console.json")));
-            var server = new GameServer(IPAddress.Parse(server_config.Host), server_config.Port, server_config, console_config);
+            var game_server = new GameServer(IPAddress.Parse(server_config.Host), server_config.Port, server_config, console_config);
+            var addon_server = new AddonServer(IPAddress.Parse(server_config.Host), server_config.AddonServerPort, game_server);
 
-            if (server.Start())
-                server.Console.Information("Listening on {address}:{port}", server.Endpoint.Address, server.Endpoint.Port);
-            else server.Console.Error("Unable to start game server. The specified address and port may already be in use.");
+            if (game_server.Start())
+                game_server.Console.Information("GameServer is listening on {address}:{port}", game_server.Endpoint.Address, game_server.Endpoint.Port);
+            else game_server.Console.Error("Unable to start game server. The specified address and port may already be in use.");
+
+            if (addon_server.Start())
+                game_server.Console.Information("AddonServer is listening on {address}:{port}", addon_server.Endpoint.Address, addon_server.Endpoint.Port);
+            else game_server.Console.Error("Unable to start addon server. The specified address and port may already be in use.");
 
             await Task.Delay(-1);
         }

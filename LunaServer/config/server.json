@@ -5,6 +5,9 @@
   /* The port the server should listen on. */
   "Port": 8000,
 
+  /* The port the addon server should listen on. */
+  "AddonServerPort": 8001,
+
   /* The maximum amount of connections that can be established per IP. */
   "MaxConnectionsPerIP": 5,
 
