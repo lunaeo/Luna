@@ -1979,10 +1979,57 @@ namespace LunaServer
                     return false;
 
                 foreach (var point in trigger.Area.Points)
-                    context.GameSession.AddonConnection.Send(new AddonMessage("mutate", 0, point.X, point.Y, groundId));
+                    context.GameSession.AddonConnection.Send("mutate", 0, point.X, point.Y, groundId);
 
                 return true;
             }, "set the floor to #.");
+
+
+            page.SetTriggerHandler(new Trigger(TriggerCategory.Effect, 803), (trigger, ctx, args) =>
+            {
+                var context = (EndlessContext)ctx;
+                var objectId = trigger.Get<int>(0);
+
+                if (context.GameSession.AddonConnection == null)
+                    return false;
+
+                foreach (var point in trigger.Area.Points)
+                    context.GameSession.AddonConnection.Send("mutate", 1, point.X, point.Y, objectId);
+
+                return true;
+            }, "set the object to #.");
+
+            page.SetTriggerHandler(new Trigger(TriggerCategory.Effect, 835), (trigger, ctx, args) =>
+            {
+                var context = (EndlessContext)ctx;
+
+                if (context.GameSession.AddonConnection == null)
+                    return false;
+
+                if (context.GameSession.Character.SitState != (byte)SitState.Floor)
+                    return false;
+
+                foreach (var point in trigger.Area.Points)
+                    context.GameSession.AddonConnection.Send("stand");
+
+                return true;
+            }, "make the triggering player stand up.");
+
+            page.SetTriggerHandler(new Trigger(TriggerCategory.Effect, 836), (trigger, ctx, args) =>
+            {
+                var context = (EndlessContext)ctx;
+
+                if (context.GameSession.AddonConnection == null)
+                    return false;
+
+                if (context.GameSession.Character.SitState != (byte)SitState.Stand)
+                    return false;
+
+                foreach (var point in trigger.Area.Points)
+                    context.GameSession.AddonConnection.Send("sit");
+
+                return true;
+            }, "make the triggering player sit down.");
 
             #endregion
 
