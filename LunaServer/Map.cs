@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.IO;
 using System.Linq;
 using System.Threading;
+using System.Collections.Concurrent;
 
 namespace LunaServer
 {
@@ -41,7 +42,7 @@ namespace LunaServer
             builder.AddChar(x);
             builder.AddChar(y);
 
-            foreach (var mapCharacter in this.Characters)
+            foreach (var mapCharacter in this.Characters.ToArray())
             {
                 if (mapCharacter.InRange(x, y))
                     mapCharacter.Session.Send(builder);
@@ -52,7 +53,7 @@ namespace LunaServer
         {
             var npc = this.MapNPCs.First(t => t.Index == uid);
 
-            foreach (var character in this.Characters)
+            foreach (var character in this.Characters.ToArray())
                 npc.RemoveFromView(character);
 
             this.MapNPCs.RemoveAll(t => t.Index == uid);
@@ -82,7 +83,7 @@ namespace LunaServer
             addItem.AddChar(item.X);
             addItem.AddChar(item.Y);
 
-            foreach (var mapCharacter in this.Characters)
+            foreach (var mapCharacter in this.Characters.ToArray())
             {
                 if ((owner != null && mapCharacter == owner) || !mapCharacter.InRange(item.X, item.Y))
                     continue;
@@ -195,7 +196,7 @@ namespace LunaServer
             if (newX.Count != newY.Count || oldX.Count != oldY.Count || newX.Count != oldX.Count)
                 return false;
 
-            foreach (var checkCharacter in this.Characters)
+            foreach (var checkCharacter in this.Characters.ToArray())
             {
                 for (var i = 0; i < oldX.Count; ++i)
                 {
@@ -233,7 +234,7 @@ namespace LunaServer
             NPCWalk.AddBreak();
             NPCWalk.AddBreak();
 
-            foreach (var mapCharacter in this.Characters)
+            foreach (var mapCharacter in this.Characters.ToArray())
             {
                 if (!mapCharacter.InRange(npc))
                     continue;
@@ -249,7 +250,7 @@ namespace LunaServer
 
         internal MapItem GetItem(ushort uid)
         {
-            foreach (var item in this.MapItems)
+            foreach (var item in this.MapItems.ToArray())
             {
                 if (item.UniqueID == uid)
                     return item;
@@ -260,14 +261,14 @@ namespace LunaServer
 
         internal void DeleteItem(ushort uid, Character from)
         {
-            foreach (var item in this.MapItems)
+            foreach (var item in this.MapItems.ToArray())
             {
                 if (item.UniqueID == uid)
                 {
                     var reply = new Packet(PacketFamily.Item, PacketAction.Remove);
                     reply.AddShort(uid);
 
-                    foreach (var mapCharacter in this.Characters)
+                    foreach (var mapCharacter in this.Characters.ToArray())
                     {
                         if ((from != null && mapCharacter == from) || !mapCharacter.InRange(item))
                             continue;
@@ -286,7 +287,7 @@ namespace LunaServer
             builder.AddShort(character.Session.PlayerId);
             builder.AddChar((byte)direction);
 
-            foreach (var mapCharacter in this.Characters)
+            foreach (var mapCharacter in this.Characters.ToArray())
             {
                 if (character.Session.PlayerId == mapCharacter.Session.PlayerId || !character.InRange(mapCharacter))
                     continue;
@@ -344,7 +345,7 @@ namespace LunaServer
             builder.AddChar(1); // 0 = NPC, 1 = player
 
             // check if character is in range
-            foreach (var checkCharacter in this.Characters)
+            foreach (var checkCharacter in this.Characters.ToArray())
             {
                 if (checkCharacter == character || !character.InRange(checkCharacter))
                     continue;
@@ -365,7 +366,7 @@ namespace LunaServer
                 if (animation != WarpAnimation.None)
                     builder.AddChar((byte)animation);
 
-                foreach (var mapCharacter in this.Characters)
+                foreach (var mapCharacter in this.Characters.ToArray())
                 {
                     if (mapCharacter == character || !character.InRange(mapCharacter))
                         continue;
@@ -393,7 +394,7 @@ namespace LunaServer
             builder.AddChar((byte)character.Direction);
             builder.AddChar(0); // ?
 
-            foreach (var mapCharacters in this.Characters)
+            foreach (var mapCharacters in this.Characters.ToArray())
             {
                 if (character.InRange(mapCharacters))
                 {
@@ -416,7 +417,7 @@ namespace LunaServer
             builder.AddChar(character.X);
             builder.AddChar(character.Y);
 
-            foreach (var mapCharacters in this.Characters)
+            foreach (var mapCharacters in this.Characters.ToArray())
             {
                 if (character.InRange(mapCharacters))
                 {
@@ -433,7 +434,7 @@ namespace LunaServer
             builder.AddShort(character.Session.PlayerId);
             builder.AddChar((byte)emote);
 
-            foreach (var mapCharacter in this.Characters)
+            foreach (var mapCharacter in this.Characters.ToArray())
             {
                 if (!echo && (mapCharacter == character || !character.InRange(mapCharacter)))
                     continue;
@@ -590,7 +591,7 @@ namespace LunaServer
             if (newX.Count != newY.Count || oldX.Count != oldY.Count || newX.Count != oldX.Count)
                 return false;
 
-            foreach (var checkCharacter in this.Characters)
+            foreach (var checkCharacter in this.Characters.ToArray())
             {
                 if (checkCharacter == character)
                     continue;
@@ -608,7 +609,7 @@ namespace LunaServer
                 }
             }
 
-            foreach (var checkNPC in this.MapNPCs)
+            foreach (var checkNPC in this.MapNPCs.ToArray())
             {
                 if (!checkNPC.Alive)
                     continue;
@@ -626,7 +627,7 @@ namespace LunaServer
                 }
             }
 
-            foreach (var checkItem in this.MapItems)
+            foreach (var checkItem in this.MapItems.ToArray())
             {
                 for (var i = 0; i < newX.Count; ++i)
                 {
@@ -675,7 +676,7 @@ namespace LunaServer
             builder.AddChar(character.X);
             builder.AddChar(character.Y);
 
-            foreach (var checkCharacter in this.Characters)
+            foreach (var checkCharacter in this.Characters.ToArray())
             {
                 if (checkCharacter == character || !character.InRange(checkCharacter))
                     continue;
@@ -743,7 +744,7 @@ namespace LunaServer
             packet.AddShort(character.Session.PlayerId);
             packet.AddChar((byte)direction);
 
-            foreach (var mapCharacter in this.Characters)
+            foreach (var mapCharacter in this.Characters.ToArray())
             {
                 if (mapCharacter == character || !character.InRange(mapCharacter))
                     continue;
@@ -757,7 +758,7 @@ namespace LunaServer
             ushort lowest_free_id = 1;
 
             restart:
-            foreach (var npc in this.MapNPCs)
+            foreach (var npc in this.MapNPCs.ToArray())
             {
                 if (npc.Index == lowest_free_id)
                 {
@@ -778,7 +779,7 @@ namespace LunaServer
             ushort lowest_free_id = 1;
 
             restart:
-            foreach (var item in this.MapItems)
+            foreach (var item in this.MapItems.ToArray())
             {
                 if (item.UniqueID == lowest_free_id)
                 {
