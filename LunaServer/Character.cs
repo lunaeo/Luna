@@ -71,7 +71,7 @@ namespace LunaServer
         internal (int x, int y, MapItem item) LastItemDropped { get; set; }
         internal (int x, int y, MapItem item) LastItemPickedUp { get; set; }
         internal MapNPC LastNPCAttacked { get; set; }
-        internal string LastMessageSpoken { get; set; }
+        internal string LastChatMessageSpoken { get; set; }
 
         public Character(GameSession session)
         {
@@ -138,9 +138,9 @@ namespace LunaServer
             return (xDistance + yDistance) < 11;
         }
 
-        public void SetMap(ushort mapId, byte x, byte y)
+        public void SetMap(ushort map_id, byte x, byte y)
         {
-            this.MapId = mapId;
+            this.MapId = map_id;
             this.X = x;
             this.Y = y;
         }
@@ -202,25 +202,19 @@ namespace LunaServer
             foreach (var character in this.Map.Characters)
             {
                 if (this.InRange(character))
-                {
                     updateCharacters.Add(character);
-                }
             }
 
             foreach (var npc in this.Map.MapNPCs)
             {
                 if (this.InRange(npc))
-                {
                     updateNPCs.Add(npc);
-                }
             }
 
             foreach (var item in this.Map.MapItems)
             {
                 if (this.InRange(item))
-                {
                     updateItems.Add(item);
-                }
             }
 
             var builder = new Packet(PacketFamily.Refresh, PacketAction.Reply);
@@ -310,6 +304,13 @@ namespace LunaServer
             // TODO: ARENA
         }
 
+        public void PlayJukeBoxSong(ushort song_number)
+        {
+            var builder = new Packet(PacketFamily.JukeBox, PacketAction.Use);
+            builder.AddShort(song_number);
+            this.Session.Send(builder);
+        }
+
         private bool DeleteItem(ushort id, int amount)
         {
             if (amount <= 0)
@@ -354,6 +355,5 @@ namespace LunaServer
             this.Inventory.Add(item);
             return true;
         }
-
     }
 }

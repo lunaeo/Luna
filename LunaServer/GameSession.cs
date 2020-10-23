@@ -72,8 +72,8 @@ namespace LunaServer
             packet.AddShort((ushort)this.Character.Session.GameServer.ItemData[this.Character.Paperdoll[(ushort)EquipLocation.Hat]].special1);
             packet.AddShort((ushort)this.Character.Session.GameServer.ItemData[this.Character.Paperdoll[(ushort)EquipLocation.Shield]].special1);
             packet.AddShort((ushort)this.Character.Session.GameServer.ItemData[this.Character.Paperdoll[(ushort)EquipLocation.Weapon]].special1);
-            packet.AddChar((byte)this.Character.SitState); // Sitting
-            packet.AddChar((byte)(this.Character.Hidden ? 1 : 0)); // Hidden
+            packet.AddChar((byte)this.Character.SitState);
+            packet.AddChar((byte)(this.Character.Hidden ? 1 : 0));
         }
 
         internal void SendGameState(GameSession session)

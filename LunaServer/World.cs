@@ -7,6 +7,7 @@ using MoonScript;
 
 namespace LunaServer
 {
+    using System.Runtime.InteropServices.ComTypes;
     using EndlessOnline;
     using EndlessOnline.Communication;
     using EndlessOnline.Domain.Character;
@@ -1951,7 +1952,7 @@ namespace LunaServer
             {
                 var context = (EndlessContext)ctx;
                 var name = trigger.GetVariableName(0);
-                var message = context.Character.LastMessageSpoken;
+                var message = context.Character.LastChatMessageSpoken;
 
                 return set_message_variable(this.GameServer, page, name, message);
             }, "set message ~ to what the triggering player last said.");
@@ -1963,6 +1964,51 @@ namespace LunaServer
 
                 return set_message_variable(this.GameServer, page, name, context.Character.Name);
             }, "set message ~ to the triggering players's name.");
+
+            page.SetTriggerHandler(new Trigger(TriggerCategory.Effect, 860), (trigger, ctx, args) =>
+            {
+                var context = (EndlessContext)ctx;
+                var song = trigger.GetInt(0);
+
+                context.Character.PlayJukeBoxSong((ushort)song);
+                return true;
+            }, "play jukebox song # to the triggering player.");
+
+            page.SetTriggerHandler(new Trigger(TriggerCategory.Effect, 861), (trigger, ctx, args) =>
+            {
+                var context = (EndlessContext)ctx;
+                var song = trigger.GetInt(0);
+
+                foreach (var character in players_around_inclusive(context.Character))
+                    context.Character.PlayJukeBoxSong((ushort)song);
+
+                return true;
+            }, "play jukebox song # to any player present.");
+
+            page.SetTriggerHandler(new Trigger(TriggerCategory.Effect, 862), (trigger, ctx, args) =>
+            {
+                var context = (EndlessContext)ctx;
+                var song = trigger.GetInt(0);
+                var x = trigger.GetInt(1);
+                var y = trigger.GetInt(2);
+
+                foreach (var character in players_around_inclusive(context.Character))
+                    if (character.InRange((byte)x, (byte)y))
+                        context.Character.PlayJukeBoxSong((ushort)song);
+
+                return true;
+            }, "play jukebox song # to every player who can see (#,#).");
+
+            page.SetTriggerHandler(new Trigger(TriggerCategory.Effect, 863), (trigger, ctx, args) =>
+            {
+                var context = (EndlessContext)ctx;
+                var song = trigger.GetInt(0);
+
+                foreach (var character in context.Character.Map.Characters)
+                    context.Character.PlayJukeBoxSong((ushort)song);
+
+                return true;
+            }, "play jukebox song # to everyone on the map.");
 
             #endregion Effects
 

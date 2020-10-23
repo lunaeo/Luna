@@ -4,8 +4,8 @@ using System.IO;
 using System.Linq;
 using System.Net;
 using System.Net.Sockets;
-using CliWrap;
 using NetCoreServer;
+using CliWrap;
 using Serilog;
 using Serilog.Events;
 
