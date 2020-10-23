@@ -8,6 +8,7 @@ namespace LunaServer
     using EndlessOnline.Data;
     using EndlessOnline.Domain.Character;
     using EndlessOnline.Replies;
+    using Microsoft.VisualBasic.CompilerServices;
 
     public class Character
     {
@@ -302,6 +303,24 @@ namespace LunaServer
             this.Session.Send(builder);
 
             // TODO: ARENA
+        }
+
+        public void PlayBard(byte instrument, byte note, bool echo)
+        {
+            var builder = new Packet(PacketFamily.JukeBox, PacketAction.Message);
+
+            builder.AddShort(this.Session.PlayerId);
+            builder.AddChar((byte)this.Direction);
+            builder.AddChar(instrument);
+            builder.AddChar(note);
+
+            foreach (var character in this.Map.Characters)
+            {
+                if (!echo && (character == this || !this.InRange(character)))
+                    continue;
+
+                character.Session.Send(builder);
+            }
         }
 
         public void PlayJukeBoxSong(ushort song_number)

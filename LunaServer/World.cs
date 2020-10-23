@@ -1965,6 +1965,16 @@ namespace LunaServer
                 return set_message_variable(this.GameServer, page, name, context.Character.Name);
             }, "set message ~ to the triggering players's name.");
 
+            page.SetTriggerHandler(new Trigger(TriggerCategory.Effect, 850), (trigger, ctx, args) =>
+            {
+                var context = (EndlessContext)ctx;
+                var direction = trigger.GetInt(0);
+
+                context.Character.Direction = (Direction)direction;
+                context.Character.PlayBard(0, 0, true);
+                return true;    
+            }, "make the triggering player attack in direction #.");
+
             page.SetTriggerHandler(new Trigger(TriggerCategory.Effect, 860), (trigger, ctx, args) =>
             {
                 var context = (EndlessContext)ctx;
