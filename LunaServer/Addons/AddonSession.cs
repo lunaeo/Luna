@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Linq;
+using System.Linq.Expressions;
 using System.Net.Sockets;
 using NetCoreServer;
 
@@ -15,8 +16,13 @@ namespace LunaServer.Addons
         public GameServer GameServer { get; }
         public GameSession GameSession { get; private set; }
 
-        internal BinarySerializer Serializer { get; set; }
-        internal BinaryDeserializer Deserializer { get; set; }
+        internal BinarySerializer Serializer { get; }
+        internal BinaryDeserializer Deserializer { get; }
+
+        /// <summary>
+        /// If the session has been initialized with their EO connection.
+        /// </summary>
+        public bool Initialized { get; private set; }
 
         /// <summary>
         /// A property used to add a message handler to the OnMessage event of an instance of Connection.
@@ -31,22 +37,29 @@ namespace LunaServer.Addons
 
             this.Deserializer.OnDeserializedMessage += (e) =>
             {
+                if (this.Initialized)
+                {
+                    this.GameServer.Console.Debug("An addon message was received from {pid} ({name}):\n" + e.ToString(), 
+                        this.GameSession.PlayerId, this.GameSession.Character.Name);
+
+                    this.OnMessage?.Invoke(this, e);
+                }
+
                 if (e.Type == "init")
                 {
                     var version = e.GetInt(0);
                     var sessionId = e.GetString(1);
 
                     var gameSession = this.GameServer.Sessions.FirstOrDefault(t => t.Id.ToString() == sessionId);
-
                     if (gameSession == null)
                         this.Disconnect();
 
+                    this.Initialized = true;
                     this.GameSession = (GameSession)gameSession;
                     this.GameSession.AddonConnection = this;
                     this.Send("init", this.GameServer.AddonProtocolVersion);
                 }
 
-                this.OnMessage?.Invoke(this, e);
             };
         }
 
