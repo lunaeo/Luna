@@ -8,6 +8,7 @@ using MoonScript;
 namespace LunaServer
 {
     using System.Runtime.InteropServices.ComTypes;
+    using System.Security.Cryptography.X509Certificates;
     using EndlessOnline;
     using EndlessOnline.Communication;
     using EndlessOnline.Domain.Character;
@@ -96,8 +97,11 @@ namespace LunaServer
                 });
 
             page.Name = script_name;
-            page.DefaultArea = new Area();
-            page.DefaultArea.Points = new List<Point>() { new Point(-1, -1) };
+            page.DefaultArea = new Area() { Points = new List<Point>() };
+
+            for (var x = 0; x < 254; x++)
+                for (var y = 0; y < 254; y++)
+                    page.DefaultArea.Points.Add(new Point(x, y));
 
             page.OnVariable += (trigger, type, key) =>
             {
@@ -1075,9 +1079,17 @@ namespace LunaServer
                 var x = trigger.Get<int>(0);
                 var y = trigger.Get<int>(1);
 
+
                 if (!context.Character.Map.Characters.Any(t => t.X == (byte)x && t.Y == (byte)y))
-                    foreach (var character in players_around_inclusive(context.Character))
-                        character.Warp(context.Character.MapId, (byte)x, (byte)y, WarpAnimation.None);
+                {
+                    foreach (var location in trigger.Area.Points)
+                    {
+                        var character = context.Character.Map.Characters.FirstOrDefault(t => t.X == (byte)location.X && t.Y == (byte)location.Y);
+
+                        if (character != null)
+                            character.Warp(character.MapId, (byte)x, (byte)y, WarpAnimation.None);
+                    }
+                }
 
                 return true;
             }, "move any player present to (#,#) if there's nobody already there.");
@@ -1088,8 +1100,13 @@ namespace LunaServer
                 var x = trigger.Get<int>(0);
                 var y = trigger.Get<int>(1);
 
-                foreach (var character in players_around_inclusive(context.Character))
-                    context.Character.Warp(context.Character.MapId, (byte)x, (byte)y, WarpAnimation.None);
+                foreach (var location in trigger.Area.Points)
+                {
+                    var character = context.Character.Map.Characters.FirstOrDefault(t => t.X == (byte)location.X && t.Y == (byte)location.Y);
+
+                    if (character != null)
+                        character.Warp(character.MapId, (byte)x, (byte)y, WarpAnimation.None);
+                }
 
                 return true;
             }, "move any player present to (#,#).");
@@ -1126,9 +1143,16 @@ namespace LunaServer
                 var y = trigger.Get<int>(1);
                 var mapId = trigger.Get<int>(2);
 
-                if (!context.Character.Map.Characters.Any(t => t.X == (byte)x && t.Y == (byte)y))
-                    foreach (var character in players_around_inclusive(context.Character))
-                        character.Warp((ushort)mapId, (byte)x, (byte)y, WarpAnimation.None);
+                if (!this.GameServer.Maps[(ushort)mapId].Characters.Any(t => t.X == (byte)x && t.Y == (byte)y))
+                {
+                    foreach (var location in trigger.Area.Points)
+                    {
+                        var character = context.Character.Map.Characters.FirstOrDefault(t => t.X == (byte)location.X && t.Y == (byte)location.Y);
+
+                        if (character != null)
+                            character.Warp((ushort)mapId, (byte)x, (byte)y, WarpAnimation.None);
+                    }
+                }
 
                 return true;
             }, "move any player present to (#,#,#) if there's nobody already there.");
@@ -1140,8 +1164,13 @@ namespace LunaServer
                 var y = trigger.Get<int>(1);
                 var mapId = trigger.Get<int>(2);
 
-                foreach (var character in players_around_inclusive(context.Character))
-                    context.Character.Warp((ushort)mapId, (byte)x, (byte)y, WarpAnimation.None);
+                foreach (var location in trigger.Area.Points)
+                {
+                    var character = context.Character.Map.Characters.FirstOrDefault(t => t.X == (byte)location.X && t.Y == (byte)location.Y);
+
+                    if (character != null)
+                        character.Warp((ushort)mapId, (byte)x, (byte)y, WarpAnimation.None);
+                }
 
                 return true;
             }, "move any player present to (#,#,#).");
@@ -1152,12 +1181,12 @@ namespace LunaServer
                 var x = trigger.Get<int>(0);
                 var y = trigger.Get<int>(1);
 
-                var player = context.Character.Map.Characters.FirstOrDefault(t => t.X == x && t.Y == y);
+                var character = context.Character.Map.Characters.FirstOrDefault(t => t.X == x && t.Y == y);
 
-                if (player == null)
+                if (character == null)
                     return false;
 
-                ctx = new EndlessContext(player.Session);
+                ctx = new EndlessContext(character.Session);
                 return true;
             }, "make any player standing at (#,#) become the new triggering player.");
 
@@ -1187,14 +1216,14 @@ namespace LunaServer
                 var y = trigger.Get<int>(1);
                 var name = trigger.Get<string>(2);
 
-                var player = context.Character.Map.Characters.FirstOrDefault(t => t.Name == name);
+                var character = context.Character.Map.Characters.FirstOrDefault(t => t.Name == name);
 
-                if (player == null)
+                if (character == null)
                     return false;
 
-                ctx = new EndlessContext(player.Session);
+                ctx = new EndlessContext(character.Session);
                 return true;
-            }, "make the player named {...} the new triggering player, if they're in the map right now.");
+            }, "make the player named {...} the new triggering player, if they're on the map right now.");
 
             page.SetTriggerHandler(new Trigger(TriggerCategory.Effect, 49), (trigger, ctx, args) =>
             {
@@ -1203,12 +1232,12 @@ namespace LunaServer
                 var y = trigger.Get<int>(1);
                 var name = trigger.Get<string>(2);
 
-                var player = this.GameServer.PlayingSessions.FirstOrDefault(t => t.Character.Name == name);
+                var character = this.GameServer.PlayingSessions.FirstOrDefault(t => t.Character.Name == name);
 
-                if (player == null)
+                if (character == null)
                     return false;
 
-                ctx = new EndlessContext(player.Character.Session);
+                ctx = new EndlessContext(character.Character.Session);
                 return true;
             }, "make the player named {...} the new triggering player, if they're in the world right now.");
 
@@ -1229,7 +1258,14 @@ namespace LunaServer
                 var message = trigger.Get<string>(0);
 
                 var (type, from_name, from_message) = ParseEmitMessage(message, out var success);
-                this.SendEmitMessage(context, players_around_inclusive(context.Character).Select(p => p.Session), message);
+
+                foreach (var location in trigger.Area.Points)
+                {
+                    var character = context.Character.Map.Characters.FirstOrDefault(t => t.X == (byte)location.X && t.Y == (byte)location.Y);
+
+                    if (character != null)
+                        this.SendEmitMessage(context, new[] { character.Session }, message);
+                }
 
                 return true;
             }, "emit message {...} to any player present.");
@@ -1280,7 +1316,7 @@ namespace LunaServer
                 if (context.Character.Map.Characters.Any(t => t.Name == from_name))
                     this.SendEmitMessage(context, context.Character.Map.Characters.Where(t => t.Name == from_name).Select(t => t.Session), message);
                 return true;
-            }, "emit message {...} to the player named {...} if they're in the map.");
+            }, "emit message {...} to the player named {...} if they're on the map.");
 
             page.SetTriggerHandler(new Trigger(TriggerCategory.Effect, 56), (trigger, ctx, args) =>
             {
@@ -1392,10 +1428,13 @@ namespace LunaServer
                 var context = (EndlessContext)ctx;
                 var emote = trigger.Get<int>(0);
 
-                foreach (var character in players_around_inclusive(context.Character))
-                    character.Emote((Emote)emote, true);
+                foreach (var location in trigger.Area.Points)
+                {
+                    var character = context.Character.Map.Characters.FirstOrDefault(t => t.X == (byte)location.X && t.Y == (byte)location.Y);
 
-                context.Character.Emote((Emote)emote, true);
+                    if (character != null)
+                        character.Emote((Emote)emote, true);
+                }
                 return true;
             }, "make any player present use emote #.");
 
@@ -1707,7 +1746,7 @@ namespace LunaServer
                 var name = trigger.GetVariableName(0);
 
                 return set_number_variable(this.GameServer, page, name, context.Character.Map.Characters.Count);
-            }, "set variable # to the number of players in the map.");
+            }, "set variable # to the number of players on the map.");
 
             page.SetTriggerHandler(new Trigger(TriggerCategory.Effect, 319), (trigger, ctx, args) =>
             {
@@ -1989,8 +2028,13 @@ namespace LunaServer
                 var context = (EndlessContext)ctx;
                 var song = trigger.GetInt(0);
 
-                foreach (var character in players_around_inclusive(context.Character))
-                    context.Character.PlayJukeBoxSong((ushort)song);
+                foreach (var location in trigger.Area.Points)
+                {
+                    var character = context.Character.Map.Characters.FirstOrDefault(t => t.X == (byte)location.X && t.Y == (byte)location.Y);
+
+                    if (character != null)
+                        character.PlayJukeBoxSong((ushort)song);
+                }
 
                 return true;
             }, "play jukebox song # to any player present.");
